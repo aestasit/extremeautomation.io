@@ -1,0 +1,339 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta property="og:title" content="Introduction to sshoogr"><meta property="og:type" content="article"><meta property="og:description" content="A Groovy-based DSL library for working with remote servers through SSH. The DSL allows: connecting; executing remote commands; copying files and directories; creating tunnels in a simple and concise way."><meta property="og:site_name" content="Extreme Automation"><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Introduction to sshoogr"><meta name="twitter:description" content="A Groovy-based DSL library for working with remote servers through SSH. The DSL allows: connecting; executing remote commands; copying files and directories; creating tunnels in a simple and concise way."><link rel="alternate" type="application/rss+xml" title="Extreme Automation RSS" href="/blog/rss.xml"><link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png"><link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-touch-icon-60x60.png"><link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-touch-icon-72x72.png"><link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-touch-icon-76x76.png"><link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-touch-icon-114x114.png"><link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-touch-icon-120x120.png"><link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-touch-icon-144x144.png"><link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-touch-icon-152x152.png"><link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon-180x180.png"><link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32"><link rel="icon" type="image/png" href="/img/favicon/favicon-194x194.png" sizes="194x194"><link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96"><link rel="icon" type="image/png" href="/img/favicon/android-chrome-192x192.png" sizes="192x192"><link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16"><link rel="manifest" href="/img/favicon/manifest.json"><link rel="mask-icon" href="/img/favicon/safari-pinned-tab.svg" color="#2f3369"><link rel="shortcut icon" href="/img/favicon/favicon.ico"><meta name="msapplication-TileColor" content="#2f3369"><meta name="msapplication-TileImage" content="/img/favicon/mstile-144x144.png"><meta name="msapplication-config" content="/img/favicon/browserconfig.xml"><meta name="theme-color" content="#ffffff"><link href="https://fonts.googleapis.com/css?family=Bitter:400,400italic,700" rel="stylesheet"><link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet"><link href="/css/style.css" rel="stylesheet"><script src="//load.sumome.com/" data-sumo-site-id="8436e781266076cbd25447c0ef4d94dd6ffa6b395b63562677d30df75a5f631c" async="async"></script><script>!function (f, b, e, v, n, t, s) {
+	if (f.fbq)return;
+	n = f.fbq = function () {
+		n.callMethod ?
+				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+	};
+	if (!f._fbq)f._fbq = n;
+	n.push = n;
+	n.loaded = !0;
+	n.version = '2.0';
+	n.queue = [];
+	t = b.createElement(e);
+	t.async = !0;
+	t.src = v;
+	s = b.getElementsByTagName(e)[0];
+	s.parentNode.insertBefore(t, s)
+}(window,
+		document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '316959828642232');
+fbq('track', "PageView");</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=316959828642232&amp;ev=PageView&amp;noscript=1"></noscript><title>Introduction to sshoogr — Extreme Automation</title></head><body><div id="wrapper"><section id="lightbox-blog" class="lightbox"><div class="content"><div class="container"><div class="image"><a href="#close" class="close-lightbox"><i class="ps-icon-resize"></i></a></div></div></div></section><section id="lightbox-contact" class="lightbox"><div class="container"><a href="#close-contact" class="close-lightbox">&times;</a><div class="block-title"><h2>Contact</h2><div class="tagline">Use this neat little form to contact me. Or write directly to &nbsp;<a href="mailto:info@extremeautomation.io">info@extremeautomation.io</a>.</div></div><ul class="social"><li><a href="https://twitter.com/codingandrey" target="_blank" class="twitter"><i class="socicon socicon-twitter"></i></a></li><li><a href="http://lv.linkedin.com/in/andreyadamovich" target="_blank" class="linkedin"><i class="socicon socicon-linkedin"></i></a></li><li><a href="https://www.xing.com/profile/Andrey_Adamovich" target="_blank" class="slideshare"><i class="socicon socicon-xing"></i></a></li><li><a href="https://www.facebook.com/andrejs.adamovics" target="_blank" class="facebook"><i class="socicon socicon-facebook"></i></a></li></ul><form id="contact-form" action="https://formcarry.com/s/BkypGMmuf" method="POST" accept-charset="UTF-8" class="form"><input type="hidden" name="_gotcha"><div class="input-group"><input name="name" placeholder="Name" id="contact-name"></div><div class="input-group"><input name="email" placeholder="Email" id="contact-email"></div><div class="input-group"><select name="subject" id="contact-subject"><option value="" disabled selected hidden>Pick your interest...</option><option value="Invite to speak">Invite to speak</option><option value="Request a workshop">Request a workshop</option><option value="Guest authoring in blo">Guest authoring in blog</option><option value="Just to say hello">Just to say hello</option></select></div><div class="input-group"><textarea name="message" placeholder="Type your message here" id="contact-message"></textarea></div><button class="button">Send</button></form></div></section><header id="header"><div class="container"><nav id="main-nav"><div id="logo"><a href="/"><img src="/img/logo.png"></a></div><ul class="nav-links"><li><a href="/">Courses</a></li><li><a href="/speaking/">Speaking</a></li><li><a href="/cheatsheets/" target="_self">Cheatsheets</a></li><li><a href="/blog/" class="active">Blog</a></li><li><a href="/about/">About</a></li><li><a href="#lightbox-contact" data-id="lightbox-contact" data-subject="Just to say hello" class="open-contacts open-lightbox">Contact</a></li></ul></nav></div></header><section id="post"><div class="container"><article><h1 class="title">Introduction to sshoogr</h1><div class="meta"><a href="/about/andrey-adamovich" target="_self" class="author">Andrey Adamovich</a><span class="divider">&middot;</span><time datetime="2013-06-03T00:00:00.000Z" class="date timeago">2013-06-03T00:00:00.000Z</time></div><div class="content markdown"><p>The <code>sshoogr</code> is a <strong>Groovy</strong>-based <strong>DSL</strong> library for working with remote servers through <strong>SSH</strong>. The <strong>DSL</strong> allows:</p>
+<ul>
+<li>connecting,</li>
+<li>executing remote commands,</li>
+<li>copying files and directories,</li>
+<li>creating tunnels in a simple and concise way.</li>
+</ul>
+<p>The library was jointly developed by <strong>Aestas/IT</strong> (<a href="http://aestasit.com">http://aestasit.com</a>) and <strong>NetCompany A/S</strong> (<a href="http://www.netcompany.com/">http://www.netcompany.com/</a>) to support the quickly growing company&#39;s operations and hosting department.</p>
+<h3 id="using-sshoogr-in-groovy-scripts">Using <em>sshoogr</em> in Groovy scripts</h3>
+<p>The easiest way to use <code>sshoogr</code> in a <strong>Groovy</strong> script is by importing the dependency using <a href="http://groovy.codehaus.org/Grape">Grape</a>.</p>
+<pre><code class="hljs groovy"><span class="hljs-meta">@Grab</span>(<span class="hljs-string">'com.aestasit.infrastructure.sshoogr:sshoogr:0.9.15'</span>)
+<span class="hljs-keyword">import</span> <span class="hljs-keyword">static</span> com.aestasit.ssh.DefaulSsh.*</code></pre>
+
+<p>The entry point for using the <strong>DSL</strong> is the <code>remoteSession</code> method, which accepts an <strong>SSH</strong> <strong>URL</strong> and a closure with <strong>Groovy</strong> or <strong>DSL</strong> code:</p>
+<pre><code class="hljs groovy">remoteSession(<span class="hljs-string">'user2:654321@localhost:2222'</span>) {
+  exec <span class="hljs-string">'rm -rf /tmp/*'</span>
+  exec <span class="hljs-string">'touch /var/lock/my.pid'</span>
+  remoteFile(<span class="hljs-string">'/var/my.conf'</span>).text = <span class="hljs-string">"enabled=true"</span>
+}</code></pre>
+
+<p>For more use cases, please refer to the following sections or to the <code>examples</code> folder in this repository.</p>
+<h3 id="remote-connections">Remote connections</h3>
+<p>The <code>remoteSession</code> method accepts an <strong>SSH</strong> <strong>URL</strong> and a closure, for example:</p>
+<pre><code class="hljs"><span class="hljs-function"><span class="hljs-title">remoteSession</span><span class="hljs-params">(<span class="hljs-string">"user:password@localhost:22"</span>)</span></span> {
+  ...
+}</code></pre>
+
+<p>Inside the closure you can execute remote commands, access remote file content, upload and download files, create tunnels.</p>
+<p>If your connection settings were set with the help of default configuration (see &quot;Configuration options&quot; section),
+then you can omit the <strong>URL</strong> parameter:</p>
+<pre><code class="hljs"><span class="hljs-class">remoteSession </span>{
+  ...
+}</code></pre>
+
+<p>Furthermore, it is possible to override the default values in each session by directly assigning <code>host</code>, <code>username</code>, <code>password</code> and <code>port</code> properties:</p>
+<pre><code class="hljs"><span class="hljs-section">remoteSession</span> {
+
+  <span class="hljs-attribute">host</span> = <span class="hljs-string">'localhost'</span>
+  username = <span class="hljs-string">'user2'</span>
+  password = <span class="hljs-string">'654321'</span>
+  port = <span class="hljs-number">2222</span>
+
+  ...
+
+}</code></pre>
+
+<p>The <strong>SSH</strong>&#39;s <strong>URL</strong> can be also assigned from withing the remote session declaration, like so:</p>
+<pre><code class="hljs"><span class="hljs-section">remoteSession</span> {
+
+  <span class="hljs-attribute">url</span> = <span class="hljs-string">'user2:654321<span class="hljs-variable">@localhost</span>:2222'</span>
+
+  ...
+
+}</code></pre>
+
+<p>The actual connection to the remote host will be executed upon the first command or file access, and, naturally, the connection will be
+automatically closed after the code block terminates.</p>
+<p>You can explicitly call <code>connect</code> or <code>disconnect</code> methods to control this behavior:</p>
+<pre><code class="hljs groovy">remoteSession {
+
+  <span class="hljs-comment">// explicitly call connect</span>
+  connect()
+
+  <span class="hljs-comment">// do some stuff</span>
+  ...
+
+  <span class="hljs-comment">// explicitly disconnect</span>
+  disconnect()
+
+  <span class="hljs-comment">// explicitly connect again</span>
+  connect()
+
+  ...
+
+}</code></pre>
+
+<p>In the next section, we will see how to execute remote commands.</p>
+<h3 id="executing-commands">Executing commands</h3>
+<p>The simplest way to execute a command within a remote session is by using the <code>exec</code> method that just takes a command string:</p>
+<pre><code class="hljs"><span class="hljs-section">remoteSession</span> {
+  <span class="hljs-attribute">exec</span> <span class="hljs-string">'ls -la'</span>
+}</code></pre>
+
+<p>You can also pass a list of commands in an array:</p>
+<pre><code class="hljs groovy">exec([
+ <span class="hljs-string">'ls -la'</span>,
+ <span class="hljs-string">'date'</span>
+])</code></pre>
+
+<p>The <code>exec</code> behavior can also be controlled with additional named parameters given to the method. For example, in order
+to hide commands output, you can use the following syntax:</p>
+<pre><code class="hljs"><span class="hljs-built_in">exec</span>(<span class="hljs-built_in">command</span>: <span class="hljs-string">'ls –la'</span>, showOutput: <span class="hljs-literal">false</span>)</code></pre>
+
+<p>The additional Parameter names are specified in the &quot;Configuration options&quot; section for the <code>execOptions</code>. They can all
+be used to override default settings for specific commands.</p>
+<p>In the same way, you can also define common parameters for a block of commands passed as an array:</p>
+<pre><code class="hljs groovy">exec(<span class="hljs-string">showOutput:</span> <span class="hljs-literal">false</span>, <span class="hljs-string">command:</span> [
+ <span class="hljs-string">'ls -la'</span>,
+ <span class="hljs-string">'date'</span>
+])</code></pre>
+
+<p>Also you can get access to command output, exit code and exception thrown during command execution. This can be useful
+for implementing logic based on a result returned by the remote command and/or parsing of the output. For example,</p>
+<pre><code class="hljs groovy"><span class="hljs-keyword">def</span> result = exec(<span class="hljs-string">command:</span> <span class="hljs-string">'/usr/bin/mycmd'</span>, <span class="hljs-string">failOnError:</span> <span class="hljs-literal">false</span>, <span class="hljs-string">showOutput:</span> <span class="hljs-literal">false</span>)
+<span class="hljs-keyword">if</span> (result.exitStatus == <span class="hljs-number">1</span>) {
+  result.output.eachLine { line -&gt;
+    <span class="hljs-keyword">if</span> (line.contains(<span class="hljs-string">'WARNING'</span>)) {
+      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> RuntimeException(<span class="hljs-string">"Warning!!!"</span>)
+    }
+  }
+}</code></pre>
+
+<p>Two additional methods that you can use around your commands are <code>prefix</code> and <code>suffix</code>. They are similar to using the <code>prefix</code>
+and <code>suffix</code> options in <code>execOptions</code> or named parameters to <code>exec</code> method.</p>
+<pre><code class="hljs"><span class="hljs-function"><span class="hljs-title">prefix</span><span class="hljs-params">(<span class="hljs-string">"sudo"</span>)</span></span> {
+  exec <span class="hljs-string">'ls -la'</span>
+  exec <span class="hljs-string">'df -h'</span>
+}</code></pre>
+
+<p>And with <code>suffix</code>:</p>
+<pre><code class="hljs">suffix(<span class="hljs-string">"&gt;&gt; output.log"</span>) {
+  <span class="hljs-built_in">exec</span> <span class="hljs-string">'ls -la'</span>
+  <span class="hljs-built_in">exec</span> <span class="hljs-string">'df -h'</span>
+  <span class="hljs-built_in">exec</span> <span class="hljs-string">'date'</span>
+  <span class="hljs-built_in">exec</span> <span class="hljs-string">'facter'</span>
+}</code></pre>
+
+<h3 id="file-uploading-downloading">File uploading/downloading</h3>
+<p>The simplest way to modify a remote text file content is by using <code>remoteFile</code> method, which returns a remote
+file object instance, and assign some string to the <code>text</code> property:</p>
+<pre><code class="hljs groovy">remoteFile(<span class="hljs-string">'/etc/yum.repos.d/puppet.repo'</span>).text = <span class="hljs-string">'''
+  [puppet]
+  name=Puppet Labs Packages
+  baseurl=http://yum.puppetlabs.com/el/$releasever/products/$basearch/
+  enabled=0
+  gpgcheck=0
+'''</span></code></pre>
+
+<p>Each line of the input string will be trimmed before it&#39;s copied to the remote file.
+For text file downloading you can just read the <code>text</code> property:</p>
+<pre><code class="hljs"><span class="hljs-built_in">println</span> remoteFile(<span class="hljs-string">'/etc/yum.repos.d/puppet.repo'</span>).<span class="hljs-built_in">text</span></code></pre>
+
+<p>Uploading of a single file can be done in the following way:</p>
+<pre><code class="hljs"><span class="hljs-attribute">scp</span> <span class="hljs-string">"<span class="hljs-variable">$buildDir</span>/test.file"</span>, <span class="hljs-string">'/tmp/test.file'</span></code></pre>
+
+<p>This method only works for file uploading (from local environment to remote). You can also write the example above
+in a more verbose form with the help of closures:</p>
+<pre><code class="hljs"><span class="hljs-section">scp</span> {
+  <span class="hljs-section">from</span> { <span class="hljs-attribute">localFile</span> <span class="hljs-string">"<span class="hljs-variable">$buildDir</span>/test.file"</span> }
+  into { <span class="hljs-attribute">remoteFile</span> <span class="hljs-string">'/tmp/test.file'</span> }
+}</code></pre>
+
+<p>A whole directory can be uploaded by using the <code>remoteDir</code> and <code>localDir</code> methods of <code>scp</code>.</p>
+<pre><code class="hljs"><span class="hljs-section">scp</span> {
+  <span class="hljs-section">from</span> { <span class="hljs-attribute">localDir</span> <span class="hljs-string">"<span class="hljs-variable">$buildDir</span>/application"</span> }
+  into { <span class="hljs-attribute">remoteDir</span> <span class="hljs-string">'/var/bea/domain/application'</span> }
+}</code></pre>
+
+<p>In similar fashion, you can download directories and files:</p>
+<pre><code class="hljs"><span class="hljs-section">scp</span> {
+  <span class="hljs-section">from</span> { <span class="hljs-attribute">remoteDir</span> <span class="hljs-string">'/etc/nginx'</span> }
+  into { <span class="hljs-attribute">localDir</span> <span class="hljs-string">"<span class="hljs-variable">$buildDir</span>/nginx"</span> }
+}</code></pre>
+
+<p>You can also copy multiple sources into multiple targets:</p>
+<pre><code class="hljs"><span class="hljs-section">scp</span> {
+  <span class="hljs-section">from</span> {
+    <span class="hljs-attribute">localDir</span> <span class="hljs-string">"<span class="hljs-variable">$buildDir</span>/doc"</span>
+    localFile <span class="hljs-string">"<span class="hljs-variable">$buildDir</span>/readme.txt"</span>
+    localFile <span class="hljs-string">"<span class="hljs-variable">$buildDir</span>/license/license.txt"</span>
+  }
+  into {
+    <span class="hljs-attribute">remoteDir</span> <span class="hljs-string">'/var/server/application'</span>
+    remoteDir <span class="hljs-string">'/repo/company/application'</span>
+  }
+}</code></pre>
+
+<p>During any upload/download operation, local and remote directories will be created automatically.</p>
+<h3 id="tunneling">Tunneling</h3>
+<p>If inside your build script you need to get access to a remote server that is not visible directly from the local
+machine, then you can create a tunnel to that server by using the <code>tunnel</code> method:</p>
+<pre><code class="hljs groovy">tunnel(<span class="hljs-string">'1.2.3.4'</span>, <span class="hljs-number">8080</span>) { <span class="hljs-keyword">int</span> localPort -&gt;
+  ...
+}</code></pre>
+
+<p>All code executed within the closure passed to the tunnel method will have access to a server tunnel running on <code>localhost</code>
+and randomly selected <code>localPort</code>, which is passed as a parameter to the closure. Inside that tunnel code you can, for
+example, deploy a web application or send some <strong>HTTP</strong> command to remote server:</p>
+<pre><code class="hljs groovy">tunnel(<span class="hljs-string">'1.2.3.4'</span>, <span class="hljs-number">8080</span>) { <span class="hljs-keyword">int</span> localPort -&gt;
+  <span class="hljs-keyword">def</span> result = <span class="hljs-keyword">new</span> URL(<span class="hljs-string">"http://localhost:${localPort}/flushCache"</span>).text
+  <span class="hljs-keyword">if</span> (result == <span class="hljs-string">'OK'</span>) {
+    println <span class="hljs-string">"Cache is flushed!"</span>
+  } <span class="hljs-keyword">else</span> {
+    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> RuntimeException(result)
+  }
+}</code></pre>
+
+<p>The tunnel will be closed upon closure completion.
+Also, you can define a local port yourself in the following way:</p>
+<pre><code class="hljs groovy">tunnel(<span class="hljs-number">7070</span>, <span class="hljs-string">'1.2.3.4'</span>, <span class="hljs-number">8080</span>) {
+  <span class="hljs-keyword">def</span> result = <span class="hljs-keyword">new</span> URL(<span class="hljs-string">"http://localhost:7070/flushCache"</span>).text
+  ...
+}</code></pre>
+
+<h3 id="configuration-options">Configuration options</h3>
+<p>The following list gives an overview of the available configuration options:</p>
+<ul>
+<li><code>defaultHost</code>, <code>defaultUser</code>, <code>defaultPassword</code>, <code>defaultPort</code> (defaults to 22) - Default host, user name, password or port to use in remote connection in case they are not specified in some other way (through <code>url</code>, <code>host</code>, <code>port</code>, <code>user</code> or <code>password</code> properties inside the <code>remoteSession</code> method).</li>
+<li><code>defaultKeyFile</code> - Default key file to use in remote connection in case it is not specified through the <code>keyFile</code> property inside the <code>remoteSession</code> method.</li>
+<li><code>failOnError</code> (defaults to true) - If set to true, failed remote commands and file operations will throw an exception.</li>
+<li><code>verbose</code> (defaults to false) - If set to true, the library produces more debug output.</li>
+</ul>
+<p>The <code>sshOptions</code> may also contain a nested <code>execOptions</code> structure, which defines remote command execution (see
+&quot;Executing commands&quot; section) options. It has the following properties:</p>
+<ul>
+<li><code>showOutput</code> (defaults to true) - If set to true, remote command output is printed.</li>
+<li><code>showCommand</code> (defaults to true) - If set to true, remote command is printed.</li>
+<li><code>maxWait</code> (defaults to 0) - Number of milliseconds to wait for command to finish. If it is set to 0, then library will wait forever.</li>
+<li><code>succeedOnExitStatus</code> (defaults to 0) - Exit code that indicates commands success. If command returns different exit code, then build will fail.</li>
+<li><code>outputFile</code> - File, to which to send command&#39;s output.</li>
+<li><code>appendFile</code> (defaults to false) - If outputFile is specified, then this option indicates if data should be appended or file should be created from scratch.</li>
+<li><code>failOnError</code> (defaults to true) - If set to true, failed remote commands will fail the build.</li>
+<li><code>verbose</code> (defaults to false) - If set to true, library produces more debug output.</li>
+<li><code>prefix</code> - String to prepend to each executed command, for example, &quot;<code>sudo</code>&quot;.</li>
+<li><code>suffix</code> - String to append to each executed command, for example, &quot;<code>&gt;&gt; output.log</code>&quot;.</li>
+</ul>
+<p>There is also a nested <code>scpOptions</code> structure, which defines remote file copying options (see &quot;File uploading/downloading&quot;
+section). It has the following properties:</p>
+<ul>
+<li><code>failOnError</code> (defaults to true) - If set to true, failed file operations will fail the build.</li>
+<li><code>showProgress</code> (defaults to false) - If set to true, library shows additional information regarding file upload/download progress.</li>
+<li><code>verbose</code> (defaults to false) - If set to true, library produces more debug output.</li>
+</ul>
+<h3 id="advanced-usage">Advanced usage</h3>
+<h4 id="creating-a-sshdslengine-instance">Creating a <code>SshDslEngine</code> instance</h4>
+<p>If you need to embed <code>sshoogr</code> into your own <strong>DSL</strong> or another library you may need to use internal classes instead of default static methods. The main library&#39;s classes are <code>SshDslEngine</code> and <code>SshOptions</code>, which need to be imported before the library can be used:</p>
+<pre><code class="hljs groovy"><span class="hljs-keyword">import</span> com.aestasit.ssh.dsl.SshDslEngine
+<span class="hljs-keyword">import</span> com.aestasit.ssh.SshOptions</code></pre>
+
+<p>To create a simple instance of the engine with the default options you can just use the following instruction:</p>
+<pre><code class="hljs groovy"><span class="hljs-keyword">def</span> engine = <span class="hljs-keyword">new</span> SshDslEngine(<span class="hljs-keyword">new</span> SshOptions())</code></pre>
+
+<p>The <code>engine</code> instance gives access to the <code>remoteSession</code> method.     </p>
+<h4 id="populating-sshoptions">Populating <code>SshOptions</code></h4>
+<p>A more verbose example of creating a <code>SshOptions</code> object can be found below:</p>
+<pre><code class="hljs groovy"><span class="hljs-keyword">import</span> com.aestasit.ssh.log.SysOutLogger
+
+... 
+
+options = <span class="hljs-keyword">new</span> SshOptions()
+options.with {
+
+  logger = <span class="hljs-keyword">new</span> SysOutLogger()
+
+  defaultHost = <span class="hljs-string">'127.0.0.1'</span>
+  defaultUser = <span class="hljs-string">'user1'</span>
+  defaultPassword = <span class="hljs-string">'123456'</span>
+  defaultPort = <span class="hljs-number">2233</span>
+
+  reuseConnection = <span class="hljs-literal">true</span>
+  trustUnknownHosts = <span class="hljs-literal">true</span>
+
+  execOptions.with {
+    showOutput = <span class="hljs-literal">true</span>
+    failOnError = <span class="hljs-literal">false</span>
+    succeedOnExitStatus = <span class="hljs-number">0</span>
+    maxWait = <span class="hljs-number">30000</span>
+    outputFile = <span class="hljs-keyword">new</span> File(<span class="hljs-string">"output.file"</span>)
+    appendFile = <span class="hljs-literal">true</span>
+  }
+
+  scpOptions.with {
+    verbose = <span class="hljs-literal">true</span>
+    showProgress = <span class="hljs-literal">true</span>
+  }
+
+}</code></pre></div></article><div id="share-scroll" class="share"><ul><li><a href="https://twitter.com/intent/tweet?text=Introduction%20to%20sshoogr&amp;url=http%3A%2F%2Fextremeautomation.io%2Fblog%2Fintroduction-to-sshoogr%2F" target="_blank" class="twitter"><i class="socicon socicon-twitter"></i></a></li><li><a href="https://www.facebook.com/dialog/share?app_id=1695100660759600&amp;display=popup&amp;href=http%3A%2F%2Fextremeautomation.io%2Fblog%2Fintroduction-to-sshoogr%2F" target="_blank" class="facebook"><i class="socicon socicon-facebook"></i></a></li><li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fextremeautomation.io%2Fblog%2Fintroduction-to-sshoogr%2F&amp;title=Introduction%20to%20sshoogr&amp;summary=A%20Groovy-based%20DSL%20library%20for%20working%20with%20remote%20servers%20through%20SSH.%20The%20DSL%20allows%3A%20connecting%3B%20executing%20remote%20commands%3B%20copying%20files%20and%20directories%3B%20creating%20tunnels%20in%20a%20simple%20and%20concise%20way.&amp;source=Extreme%20Automation" target="_blank" class="linkedin"><i class="socicon socicon-linkedin"></i></a></li><li><a href="/blog/rss.xml" target="_blank" class="rss"><i class="socicon socicon-rss"></i></a></li></ul></div><div class="footer"><div class="links"><h4>Share</h4><ul class="share color"><li><a href="https://twitter.com/intent/tweet?text=Introduction%20to%20sshoogr&amp;url=http%3A%2F%2Fextremeautomation.io%2Fblog%2Fintroduction-to-sshoogr%2F" target="_blank" class="twitter"><i class="socicon socicon-twitter"></i></a></li><li><a href="https://www.facebook.com/dialog/share?app_id=1695100660759600&amp;display=popup&amp;href=http%3A%2F%2Fextremeautomation.io%2Fblog%2Fintroduction-to-sshoogr%2F" target="_blank" class="facebook"><i class="socicon socicon-facebook"></i></a></li><li><a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3A%2F%2Fextremeautomation.io%2Fblog%2Fintroduction-to-sshoogr%2F&amp;title=Introduction%20to%20sshoogr&amp;summary=A%20Groovy-based%20DSL%20library%20for%20working%20with%20remote%20servers%20through%20SSH.%20The%20DSL%20allows%3A%20connecting%3B%20executing%20remote%20commands%3B%20copying%20files%20and%20directories%3B%20creating%20tunnels%20in%20a%20simple%20and%20concise%20way.&amp;source=Extreme%20Automation" target="_blank" class="linkedin"><i class="socicon socicon-linkedin"></i></a></li></ul></div><div class="author"><div class="image"><a href="/about/andrey-adamovich" target="_self"><img src="/img/authors/andrey.jpg" alt="Andrey Adamovich"></a></div><div class="description"><a href="/about/andrey-adamovich" target="_self"><h4 class="name">Andrey Adamovich</h4></a><p>A software craftsman with many years of experience in different lifecycle phases of software creation. He is passionate about defining good development practices, documenting and presenting architecture, reuse of code and design patterns, profiling and analysis of application performance as well as extreme automation of development and operations activities.</p></div></div></div></div></section><section id="comments"><div class="container"><div class="comments"><div id="disqus_thread"></div></div></div></section><footer id="footer"><div class="container"><div class="credit"><a id="go-up" href="#header">Beam me up, Scotty!</a><p>Friends with</p><a href="http://devchampions.com" class="devchampions"><img src="/img/logo-devchampions.png" alt="DevChampions"></a></div><div class="copy"><p>Copyright &copy; 2012-2018 Aestas/IT.<br>All rights reserved.</p><ul class="social"><li><a href="https://twitter.com/codingandrey" target="_blank" class="twitter"><i class="socicon socicon-twitter"></i></a></li><li><a href="http://lv.linkedin.com/in/andreyadamovich" target="_blank" class="linkedin"><i class="socicon socicon-linkedin"></i></a></li><li><a href="https://github.com/aadamovich" target="_blank" class="fork"><i class="socicon socicon-github"></i></a></li><li><a href="http://slideshare.net/aestasit" target="_blank" class="slideshare"><i class="socicon socicon-slideshare"></i></a></li><li><a href="/blog/rss.xml" target="_blank" class="rss"><i class="socicon socicon-rss"></i></a></li></ul></div></div></footer></div><script type="application/ld+json">{
+	"@context" : "http://schema.org",
+	"@type" : "Organization",
+	"name" : "Extreme Automation",
+	"url" : "http://extremeautomation.io"
+}</script><script type="application/ld+json">{
+	"@context": "http://schema.org",
+	"@type": "BlogPosting",
+	"mainEntityOfPage": {
+		"@type":"WebPage",
+		"@id":"http://extremeautomation.io/blog/"
+	},
+	"headline": "Introduction to sshoogr",
+	"datePublished": "2015-02-05T08:00:00+08:00",
+	"dateModified": "2015-02-05T09:20:00+08:00",
+	"author": {
+		"@type": "Person",
+		"image": "/img/authors/andrey.jpg",
+		"name": "Andrey Adamovich"
+	},
+	"description": "A Groovy-based DSL library for working with remote servers through SSH. The DSL allows: connecting; executing remote commands; copying files and directories; creating tunnels in a simple and concise way."
+}</script><script src="/js/main.js"></script><script>var disqus_config = function () {
+	this.page.url = "/" + String(title).toLowerCase().replace(/[^\w ]+/g,'').replace(/ +/g,'-') + "/";
+	this.page.identifier = "http://extremeautomation.io";
+};
+
+(function() {
+	var d = document, s = d.createElement('script');
+
+	s.src = '//extreme-automation.disqus.com/embed.js';
+
+	s.setAttribute('data-timestamp', +new Date());
+	(d.head || d.body).appendChild(s);
+})();</script><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q || []).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-22639123-7', 'auto');
+ga('send', 'pageview');</script><script>!function(e,n,u,a){e.twq||(a=e.twq=function(){a.exe?a.exe.apply(a,arguments):
+a.queue.push(arguments);},a.version='1',a.queue=[],t=n.createElement(u),
+t.async=!0,t.src='//static.ads-twitter.com/uwt.js',s=n.getElementsByTagName(u)[0],
+s.parentNode.insertBefore(t,s))}(window,document,'script');
+twq('init','nvajy');
+twq('track','PageView');</script><script>(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter43683279 = new Ya.Metrika({ id:43683279, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/43683279" style="position:absolute; left:-9999px;" alt=""></div></noscript></body></html>

@@ -1,0 +1,695 @@
+[
+  {
+    "name": "DevOps MasterClass / eXtreme Automation",
+    "slug": "devops-masterclass",
+    "type": "workshop",
+    "public": true,
+    "materials": true,
+    "difficulty": "advanced",
+    "duration": "3 days",
+    "icon": "/img/logos/ea.png",
+    "abstract": "DevOps is a growing movement that encourages closer collaboration of developers and system operations to help business goals to be achieved efficiently and on time.",
+    "description": [
+      "DevOps is a growing movement that encourages closer collaboration of developers and system operations to help business goals to be achieved efficiently and on time. Software development and infrastructure scaling are very fast-paced nowadays. That brings a necessity of larger automation, measurement and information sharing for all involved processes.",
+      "This 3-day workshop focuses on solving challenges that organisations face when implementing DevOps initiatives. It introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like Vagrant, Docker, AWS and others are given during this workshop."
+    ],
+    "urls": [
+      {
+        "title": "DevChampions",
+        "url": "http://devchampions.com/training/xa/",
+        "icon": "devchampions"
+      },
+      {
+        "title": "Informator",
+        "url": "http://informator.se/utbildningar/agila-metoder/avancerad-agile/devops-master-class",
+        "icon": "informator"
+      }
+    ],
+    "results": [
+    ],
+    "modules": [
+      {
+        "name": "Introduction to DevOps",
+        "content": [
+          {
+            "type": "p",
+            "content": "The story, problems, main principles"
+          }
+        ]
+      },
+      {
+        "name": "Automation is the key",
+        "content": [
+          {
+            "type": "p",
+            "content": "Why to automate? What to automate? How to automate? When to not automate? Automation arguments, mathematical models, process automation"
+          }
+        ]
+      },
+      {
+        "name": "Continuous X",
+        "content": [
+          {
+            "type": "p",
+            "content": "Continuous Integration, Continuous Deployment, Continuous Delivery"
+          }
+        ]
+      },
+      {
+        "name": "Configuration management",
+        "content": [
+          {
+            "type": "p",
+            "content": "Metadata management, maturity model"
+          }
+        ]
+      },
+      {
+        "name": "Infrastructure automation",
+        "content": [
+          {
+            "type": "p",
+            "content": "Managing environments, developer’s machine, from development to production, infrastructure scaling"
+          }
+        ]
+      },
+      {
+        "name": "Cloud infrastructure",
+        "content": [
+          {
+            "type": "p",
+            "content": "Public clouds, private clouds, containerization"
+          }
+        ]
+      },
+      {
+        "name": "Tooling",
+        "content": [
+          {
+            "type": "p",
+            "content": "Local development, infrastructure connectivity, infrastructure provisioning, infrastructure testing, infrastructure monitoring"
+          }
+        ]
+      },
+      {
+        "name": "Lab work",
+        "content": [
+          {
+            "type": "p",
+            "content": "Vagrant, Packer, Docker, AWS, Bash/Sshoogr/Fabric, Puppet/Chef/Ansible, Jenkins, ELK"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Docker 101",
+    "slug": "introduction-to-docker",
+    "type": "workshop",
+    "public": true,
+    "materials": true,
+    "difficulty": "easy",
+    "duration": "2 days",
+    "icon": "/img/logos/docker.png",
+    "abstract": "This is a 2-day practical workshop that covers Docker functionality, use cases and deployment scenarios.",
+    "description": [
+      "Docker has taken our industry by storm. Hardly anyone can ignore the usefulness of containerized application. Containers allow encapsulating part of your system configuration making it easier to distribute and manage applications at scale.",
+      "This is a 2-day practical workshop that covers Docker functionality, use cases and deployment scenarios. It is targeted at software developers and system administrators willing to integrate containers into software delivery and maintenance processes.",
+      "The workshop includes a lot of hands-on exercises that are based on real-life experience. All participants will receive cheatsheets as well as get access to online slides and all the code."
+    ],
+    "results": [
+      "Understand concepts behind container technology",
+      "Use containers effectively to distribute applications",
+      "Integrate containers into effective software delivery pipelines",
+      "Orchestrate, scale and monitor container-based setups"
+    ],
+    "modules": [
+      {
+        "name": "Docker history",
+        "content": [
+          {
+            "type": "p",
+            "content": "Linux containers and Docker inception."
+          }
+        ]
+      },
+      {
+        "name": "Docker concepts",
+        "content": [
+          {
+            "type": "p",
+            "content": "Host, engine, daemon, client, image, container, layer."
+          }
+        ]
+      },
+      {
+        "name": "Installing Docker",
+        "content": [
+          {
+            "type": "p",
+            "content": "Natively, inside virtual machine or with the help of Docker Toolbox."
+          }
+        ]
+      },
+      {
+        "name": "Pulling images",
+        "content": [
+          {
+            "type": "p",
+            "content": "Exploring Docker Hub, pulling images from Docker Hub and private registries, exploring local image cache, loading images into local image cache"
+          }
+        ]
+      },
+      {
+        "name": "Running containers",
+        "content": [
+          {
+            "type": "p",
+            "content": "Long running containers, throw-away containers, exposing ports, setting environment variables, sharing data with the host, setting limits."
+          }
+        ]
+      },
+      {
+        "name": "Exploring container state",
+        "content": [
+          {
+            "type": "p",
+            "content": "Listing containers, status and resource usage, standard streams, stopping containers, killing containers, pausing containers, removing containers."
+          }
+        ]
+      },
+      {
+        "name": "Creating images",
+        "content": [
+          {
+            "type": "p",
+            "content": "Images from existing containers, building images using Dockerfile, selecting base image, defining image parameters, removing images."
+          }
+        ]
+      },
+      {
+        "name": "Distributing images",
+        "content": [
+          {
+            "type": "p",
+            "content": "Through a registry or as a TAR archive, squashing images, minimizing dependencies."
+          }
+        ]
+      },
+      {
+        "name": "Pipelines",
+        "content": [
+          {
+            "type": "p",
+            "content": "Integrating Docker containers into a software delivery pipeline."
+          }
+        ]
+      },
+      {
+        "name": "Networking",
+        "content": [
+          {
+            "type": "p",
+            "content": "Creating networks and \"linking\" containers, handling communication with the host, port fowarding, managing different network types."
+          }
+        ]
+      },
+      {
+        "name": "Orchestrating",
+        "content": [
+          {
+            "type": "p",
+            "content": "Creating Docker Compose configuration for defining containers, networks and volumes."
+          }
+        ]
+      },
+      {
+        "name": "Clustering",
+        "content": [
+          {
+            "type": "p",
+            "content": "Using remote Docker engine, setting up Docker Swarm, configuring services and stacks, load-balancing."
+          }
+        ]
+      },
+      {
+        "name": "Monitoring",
+        "content": [
+          {
+            "type": "p",
+            "content": "Monitoring Docker host, visualizing image and container layer dependencies, managing container logs."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pragmatic Infrastructure Management with Ansible",
+    "slug": "ansible",
+    "type": "workshop",
+    "public": true,
+    "materials": true,
+    "difficulty": "advanced",
+    "duration": "2 days",
+    "icon": "/img/logos/ansible.png",
+    "abstract": "This is a two-day deep-dive into infrastructure automation and management with the help of Ansible.",
+    "description": [
+      "This is a two-day deep-dive into infrastructure automation and management with the help of Ansible."
+    ],
+    "modules": [
+      {
+        "name": "Introduction",
+        "content": [
+          {
+            "type": "p",
+            "content": "Introduction"
+          }
+        ]
+      },
+      {
+        "name": "Ansible terminology",
+        "content": [
+          {
+            "type": "p",
+            "content": "play, playbook, control machine, inventory, module, role"
+          }
+        ]
+      },
+      {
+        "name": "Ansible installation",
+        "content": [
+          {
+            "type": "p",
+            "content": "minimal requirements, Python and Python modules, local and remote modes"
+          }
+        ]
+      },
+      {
+        "name": "Implementing simple playbooks"
+      },
+      {
+        "name": "Handling logic in playbook",
+        "content": [
+          {
+            "type": "p",
+            "content": "variables, facts and conditionals"
+          }
+        ]
+      },
+      {
+        "name": "Configuration templating with Jinja2"
+      },
+      {
+        "name": "Using Ansible default facts and defining custom facts"
+      },
+      {
+        "name": "Complex interactions through tasks, handlers and tags"
+      },
+      {
+        "name": "Managing inventory: static vs dynamic"
+      },
+      {
+        "name": "Rolling updates and delegation"
+      },
+      {
+        "name": "Structuring playbooks: inclusions and roles"
+      },
+      {
+        "name": "Working with Ansible Galaxy and externalizing dependencies"
+      },
+      {
+        "name": "Creating Ansible modules to handle complex abstractions"
+      },
+      {
+        "name": "Hiding secrets with Ansible Vault"
+      },
+      {
+        "name": "Debugging Ansible roles and playbooks"
+      },
+      {
+        "name": "Testing Ansible roles and playbooks"
+      },
+      {
+        "name": "Multi-host management with Tower and Foreman"
+      },
+      {
+        "name": "Managing containers with Ansible"
+      },
+      {
+        "name": "Implementing full infrastructure-as-code delivery pipeline with Ansible"
+      }
+    ]
+  },
+  {
+    "name": "Cloud Infrastructure Management with Terraform",
+    "slug": "terraform",
+    "type": "workshop",
+    "public": true,
+    "materials": true,
+    "difficulty": "advanced",
+    "duration": "2 days",
+    "icon": "/img/logos/terraform.png",
+    "abstract": "This workshop consists of 2 days spent on improving your skills of cloud infrastructure provisioning with the help of the mighty Terraform.",
+    "description": [
+      "This workshop consists of 2 days spent on improving your skills of cloud infrastructure provisioning with the help of the mighty Terraform."
+    ],
+    "results": [
+    ],
+    "modules": [
+      {
+        "name": "Introduction"
+      },
+      {
+        "name": "Terminology: provider, resource, data, output, module"
+      },
+      {
+        "name": "Command-line operations: init, plan, apply, taint, destroy, import, output, refresh"
+      },
+      {
+        "name": "Dive into HashCorp Configuration Language (HCL): variables, expressions, functions, counters, files"
+      },
+      {
+        "name": "Provisioning cloud resources"
+      },
+      {
+        "name": "Building environment templates"
+      },
+      {
+        "name": "Infrastructure state management: local and remote"
+      },
+      {
+        "name": "Integrating with provisioning tools like Ansible or Puppet"
+      },
+      {
+        "name": "Integrating with configuration service discovery tools likes Consul"
+      },
+      {
+        "name": "Managing cluster deployments"
+      },
+      {
+        "name": "Multi-provider deployments (AWS, VMWare, DNS, Kubernetes)"
+      },
+      {
+        "name": "Creating Terraform modules for reusable bits of the infrastructure"
+      },
+      {
+        "name": "Developing custom Terraform provider"
+      }
+    ]
+  },
+  {
+    "name": "Continuous Delivery with Jenkins 2",
+    "slug": "jenkins",
+    "type": "workshop",
+    "public": true,
+    "materials": true,
+    "difficulty": "advanced",
+    "duration": "2 days",
+    "icon": "/img/logos/jenkins.png",
+    "abstract": "This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines.",
+    "description": [
+      "This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines."
+    ],
+    "modules": [
+      {
+        "name": "Introduction",
+        "content": [
+          {
+            "type": "p",
+            "content": "CI and CD concepts"
+          },
+          {
+            "type": "p",
+            "content": "Jenkins overview: jobs, projects, builds, queue"
+          }
+        ]
+      },
+      {
+        "name": "Fundamentals",
+        "content": [
+          {
+            "type": "p",
+            "content": "Job creation and configuration"
+          },
+          {
+            "type": "p",
+            "content": "SCM integration"
+          },
+          {
+            "type": "p",
+            "content": "Build environment and tools"
+          },
+          {
+            "type": "p",
+            "content": "Parametrized builds and triggers"
+          },
+          {
+            "type": "p",
+            "content": "Reporting facilities"
+          },
+          {
+            "type": "p",
+            "content": "Useful plugins"
+          }
+        ]
+      },
+      {
+        "name": "Pipelines",
+        "content": [
+          {
+            "type": "p",
+            "content": "Implementing multi-job pipelines"
+          },
+          {
+            "type": "p",
+            "content": "Handling multiple environments"
+          },
+          {
+            "type": "p",
+            "content": "Pipeline as code"
+          },
+          {
+            "type": "p",
+            "content": "Integrations options"
+          }
+        ]
+      },
+      {
+        "name": "Operations",
+        "content": [
+          {
+            "type": "p",
+            "content": "Security configuration"
+          },
+          {
+            "type": "p",
+            "content": "API and scripting"
+          },
+          {
+            "type": "p",
+            "content": "Scaling Jenkins"
+          },
+          {
+            "type": "p",
+            "content": "Integration with Docker"
+          },
+          {
+            "type": "p",
+            "content": "Managing setup with provisioning tools"
+          },
+          {
+            "type": "p",
+            "content": "Multi-master Jenkins installations"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Git Crash Course",
+    "slug": "git",
+    "type": "workshop",
+    "public": true,
+    "materials": true,
+    "difficulty": "easy",
+    "duration": "1 day",
+    "icon": "/img/logos/git.png",
+    "abstract": "This 1-day workshop will familiarize you with Git fundamentals. Lots of practical exercises and tricks will make you more effective working with the most popular version control system on the planet.",
+    "description": [
+      "This 1-day workshop will familiarize you with Git fundamentals. Lots of practical exercises and tricks will make you more effective working with the most popular version control system on the planet."
+    ],
+    "results": [
+    ],
+    "modules": [
+      {
+        "name": "Introduction",
+        "content": [
+          {
+            "type": "p",
+            "content": "Git history"
+          },
+          {
+            "type": "p",
+            "content": "Git architecture and components"
+          },
+          {
+            "type": "p",
+            "content": "Installing Git and setting up environment"
+          }
+        ]
+      },
+      {
+        "name": "Working with local repository",
+        "content": [
+          {
+            "type": "p",
+            "content": "Creating empty repository with git init"
+          },
+          {
+            "type": "p",
+            "content": "Staging changes with git add"
+          },
+          {
+            "type": "p",
+            "content": "Creating history records with git commit"
+          },
+          {
+            "type": "p",
+            "content": "Checking working tree with git status"
+          },
+          {
+            "type": "p",
+            "content": "Checking history with git log and git diff"
+          },
+          {
+            "type": "p",
+            "content": "Temporarily postponing changes with git stash"
+          },
+          {
+            "type": "p",
+            "content": "Controlling Git behavior with git config and .gitattributes"
+          },
+          {
+            "type": "p",
+            "content": "Excluding files in .gitignore and .gitkeep"
+          },
+          {
+            "type": "p",
+            "content": "Going \"back in time\" with git checkout"
+          },
+          {
+            "type": "p",
+            "content": "Reverting changes with git revert"
+          },
+          {
+            "type": "p",
+            "content": "Cleaning workging tree with git clean"
+          },
+          {
+            "type": "p",
+            "content": "Forgeting history with git reset"
+          },
+          {
+            "type": "p",
+            "content": "Rewriting history with git rebase"
+          }
+        ]
+      },
+      {
+        "name": "Collaborating on code",
+        "content": [
+          {
+            "type": "p",
+            "content": "Retrieving remote repository with git clone"
+          },
+          {
+            "type": "p",
+            "content": "Controlling remote repository location with git remote"
+          },
+          {
+            "type": "p",
+            "content": "Retrieving remote changes with git fetch and git pull"
+          },
+          {
+            "type": "p",
+            "content": "Sending local changes to remote repository with git push"
+          },
+          {
+            "type": "p",
+            "content": "Resolving conflicts"
+          }
+        ]
+      },
+      {
+        "name": "Branching and merging",
+        "content": [
+          {
+            "type": "p",
+            "content": "Creating and switching between local branches with git checkout"
+          },
+          {
+            "type": "p",
+            "content": "Pushing branches to remote repository with git push"
+          },
+          {
+            "type": "p",
+            "content": "Listing local and remote branches with git branch"
+          },
+          {
+            "type": "p",
+            "content": "Merging branches with git merge"
+          },
+          {
+            "type": "p",
+            "content": "Rebasing vs merging"
+          },
+          {
+            "type": "p",
+            "content": "Deleting branches"
+          }
+        ]
+      },
+      {
+        "name": "Git workflows",
+        "content": [
+          {
+            "type": "p",
+            "content": "Feature branches"
+          },
+          {
+            "type": "p",
+            "content": "GitFlow: master, develop, release, feature"
+          },
+          {
+            "type": "p",
+            "content": "Forks and pull/merge requests"
+          }
+        ]
+      },
+      {
+        "name": "Additional topics",
+        "content": [
+          {
+            "type": "p",
+            "content": "Git LFS"
+          },
+          {
+            "type": "p",
+            "content": "Git hooks: client/server, validation, encryption"
+          },
+          {
+            "type": "p",
+            "content": "Git client overview: TortoiseGit, SourceTree, Intellij IDEA"
+          },
+          {
+            "type": "p",
+            "content": "Git service overview: GitHub, GitLab, BitBucket"
+          }
+        ]
+      },
+      {
+        "name": "Conclusion"
+      }
+    ]
+  }
+]

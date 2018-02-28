@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Andrey Adamovich",
+    "slug": "andrey-adamovich",
+    "title": "Developer / Trainer / Speaker / Author",
+    "image": "/img/authors/andrey.jpg",
+    "bio": "A software craftsman with many years of experience in different lifecycle phases of software creation. He is passionate about defining good development practices, documenting and presenting architecture, reuse of code and design patterns, profiling and analysis of application performance as well as extreme automation of development and operations activities.",
+    "social": [
+      {
+        "type": "linkedin",
+        "link": "http://www.linkedin.com/in/andreyadamovich"
+      },
+      {
+        "type": "twitter",
+        "link": "http://twitter.com/codingandrey"
+      },
+      {
+        "type": "stack-overflow",
+        "link": "http://stackoverflow.com/users/162792/andrey-adamovich"
+      },
+      {
+        "type": "github",
+        "link": "https://github.com/aadamovich"
+      },
+      {
+        "type": "lanyrd",
+        "link": "http://lanyrd.com/profile/andrey-adamovich/"
+      }
+    ]
+  },
+  {
+    "name": "Luciano Fiandesio",
+    "slug": "luciano-fiandesio",
+    "title": "Author / Speaker",
+    "image": "/img/authors/luciano.jpg",
+    "bio": "A programmer, technology enthusiast and entrepreneur living in Zurich, Switzerland. Luciano has been working for the last 18 years in 12 different countries as architect and developer for large corporations and small start-ups.",
+    "social": [
+      {
+        "type": "linkedin",
+        "link": "http://www.linkedin.com/in/lucianofiandesio"
+      },
+      {
+        "type": "twitter",
+        "link": "http://twitter.com/lucianofiandesio"
+      },
+      {
+        "type": "stack-overflow",
+        "link": "https://www.linkedin.com/in/ishipsoftware"
+      },
+      {
+        "type": "github",
+        "link": "https://github.com/luciano-fiandesio"
+      }
+    ]
+  },
+  {
+    "name": "Teodors Zeltiņš",
+    "slug": "teodors-zeltins",
+    "title": "Author / Developer",
+    "image": "/img/authors/teodors.jpg",
+    "bio": "A nice guy.",
+    "social": [
+      {
+        "type": "linkedin",
+        "link": "http://www.linkedin.com/in/teodorszeltins"
+      },
+      {
+        "type": "twitter",
+        "link": "http://twitter.com/teodorszeltins"
+      },
+      {
+        "type": "stack-overflow",
+        "link": "https://www.linkedin.com/in/teodorszeltins"
+      },
+      {
+        "type": "github",
+        "link": "https://github.com/teodors"
+      }
+    ]
+  }
+]

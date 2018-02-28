@@ -1,0 +1,872 @@
+[
+  {
+    "date": "2018-11-30",
+    "title": "DevTernity",
+    "place": "Riga, Latvia",
+    "url": "http://devternity.com/",
+    "cover": "/img/events/devternity2016.jpg"
+  },
+  {
+    "date": "2018-06-07",
+    "title": "IT.A.K.E Unconference 2018",
+    "place": "Bucharest, Romania",
+    "url": "http://itakeunconf.com/",
+    "cover": "/img/events/bucharest.jpg",
+    "sessions": [
+      {
+        "title": "DevOps transformations: tools vs culture"
+      }
+    ]
+  },
+  {
+    "date": "2018-02-08",
+    "title": "Playtech Discussion Club",
+    "place": "Tartu, Estonia",
+    "url": "null",
+    "cover": "/img/events/tartu.jpg",
+    "sessions": [
+      {
+        "title": "Dockerized Java"
+      }
+    ]
+  },
+  {
+    "date": "2017-12-01",
+    "title": "DevTernity",
+    "place": "Riga, Latvia",
+    "url": "http://devternity.com/",
+    "cover": "/img/events/devternity2016.jpg"
+  },
+  {
+    "date": "2017-10-23",
+    "title": "DevClub #110",
+    "place": "Tallinn, Estonia",
+    "url": "http://devclub.eu",
+    "cover": "/img/events/tallinn.jpg",
+    "sessions": [
+      {
+        "title": "Bots at community service",
+        "slides": "https://www.slideshare.net/aestasit/bots-at-community-service-for-latcraft"
+      }
+    ]
+  },
+  {
+    "date": "2017-10-17",
+    "title": "Transylvania JUG",
+    "place": "Cluj-Napoca, Romania",
+    "url": "https://www.meetup.com/Transylvania-Java-User-Group/events/243737617/",
+    "cover": "/img/events/cluj.jpg",
+    "sessions": [
+      {
+        "title": "Dockerized Java",
+        "slides": "https://www.slideshare.net/aestasit/dockerized-java-for-transylvanian-jug"
+      }
+    ]
+  },
+  {
+    "date": "2017-10-14",
+    "title": "GDG Riga | Terraform Workshop",
+    "place": "Riga, Latvia",
+    "url": "https://www.meetup.com/GDG-Riga/events/243831346/",
+    "cover": "/img/events/riga.jpg",
+    "sessions": [
+      {
+        "title": "From Zero to Cluster in the Cloud with Terraform",
+        "slides": "https://www.slideshare.net/aestasit/workshop-from-zero-to-cluster-in-the-cloud-with-terraform"
+      }
+    ]
+  },
+  {
+    "date": "2017-07-04",
+    "title": "Latcraft | Chatbots",
+    "place": "Riga, Latvia",
+    "url": "http://latcraft.lv",
+    "cover": "/img/events/latcraft.jpg",
+    "sessions": [
+      {
+        "title": "Bots at community service",
+        "slides": "https://www.slideshare.net/aestasit/bots-at-community-service-for-latcraft"
+      }
+    ]
+  },
+  {
+    "date": "2017-05-31",
+    "title": "GR8Conf EU",
+    "place": "Copenhagen, Denmark",
+    "url": "http://gr8conf.eu",
+    "cover": "/img/events/copenhagen.jpg",
+    "sessions": [
+      {
+        "title": "Bots at community service",
+        "slides": "https://www.slideshare.net/aestasit/bots-at-community-service-for-gr8conf-2017",
+        "video": "https://www.youtube.com/watch?v=TFDGC1VCtug&feature=youtu.be"
+      },
+      {
+        "title": "Dockerized Java",
+        "slides": "https://www.slideshare.net/aestasit/dockerized-java-workshop-for-gr8conf-2017"
+      },
+      {
+        "title": "Sshoogr for your infrastructure automation",
+        "slides": "https://www.slideshare.net/aestasit/sshoogr-for-your-infrastructure-for-g8conf-2017",
+        "video": "https://www.youtube.com/watch?v=6HvAcDh8u4Y&feature=youtu.be"
+      },
+      {
+        "title": "Jenkinsfile: friend or foe",
+        "slides": "https://www.slideshare.net/aestasit/jenkinsfile-friend-or-foe-for-gr8conf-2017",
+        "video": "https://www.youtube.com/watch?v=obi2LdctF-8&feature=youtu.be"
+      }
+    ]
+  },
+  {
+    "date": "2017-05-26",
+    "title": "JEEConf",
+    "place": "Kiev, Ukraine",
+    "url": "http://jeeconf.com/",
+    "cover": "/img/events/kiev.jpg",
+    "sessions": [
+      {
+        "title": "Dockerized Java",
+        "slides": "https://www.slideshare.net/aestasit/dockerized-java-jeeconf-2017",
+        "video": "https://www.youtube.com/watch?v=NQ5hTEp-GTM&index=66&list=PLYj3Bx1JM6Y6wNFtj6OAKkRlWAZmCFbTI"
+      },
+      {
+        "title": "Visualizing Java code bases",
+        "slides": "https://www.slideshare.net/aestasit/visualizing-java-code-bases-for-jeeconf-2017",
+        "video": "https://www.youtube.com/watch?v=vX045FUxAZI&index=15&list=PLYj3Bx1JM6Y6wNFtj6OAKkRlWAZmCFbTI"
+      }
+    ]
+  },
+  {
+    "date": "2017-05-15",
+    "title": "RigaDevDays",
+    "place": "Riga, Latvia",
+    "url": "http://rigadevdays.lv/",
+    "cover": "/img/events/riga.jpg",
+    "sessions": [
+      {
+        "title": "Gradle: the good parts",
+        "slides": "https://www.slideshare.net/aestasit/gradle-the-good-parts",
+        "video": "https://www.youtube.com/watch?v=qFlqpGNuktk"
+      }
+    ]
+  },
+  {
+    "date": "2017-02-21",
+    "title": "Java User Group Latvia",
+    "place": "Riga, Latvia",
+    "url": "http://jug.lv",
+    "cover": "/img/events/juglv_2017.jpg",
+    "sessions": [
+      {
+        "title": "JIT: the hidden gem of the JVM",
+        "slides": "https://www.slideshare.net/aestasit/jit-the-hidden-gem-of-the-jvm",
+        "video": "https://www.youtube.com/watch?v=R0b12XHgs8I"
+      }
+    ]
+  },
+  {
+    "date": "2017-02-07",
+    "title": "Stockholm Docker Meetup",
+    "place": "Stockholm, Sweden",
+    "url": "https://www.meetup.com/Docker-Stockholm/events/236822433/",
+    "cover": "/img/events/stockholm_winter.jpg",
+    "sessions": [
+      {
+        "title": "Docker logging with Elastic Stack",
+        "time": "18:30",
+        "slides": "https://www.slideshare.net/aestasit/docker-logging-with-elastic-stack"
+      }
+    ]
+  },
+  {
+    "date": "2017-02-06",
+    "title": "JFokus",
+    "place": "Stockholm, Sweden",
+    "url": "http://www.jfokus.se",
+    "cover": "/img/events/stockholm_wf.jpg",
+    "sessions": [
+      {
+        "title": "Dockerized Java",
+        "time": "09:00"
+      },
+      {
+        "title": "Visualizing Java code bases",
+        "time": "16:00",
+        "slides": "https://www.slideshare.net/aestasit/visualizing-java-code-bases-for-jfokus-2017",
+        "video": "https://www.youtube.com/watch?v=E8v5F6g_bUY"
+      }
+    ]
+  },
+  {
+    "date": "2016-12-01",
+    "title": "DevTernity",
+    "place": "Riga, Latvia",
+    "url": "http://devternity.com",
+    "cover": "/img/events/devternity2016.jpg"
+  },
+  {
+    "date": "2016-10-20",
+    "title": "Geecon Prague",
+    "place": "Prague, Czech Republic",
+    "url": "http://2016.geecon.cz/",
+    "cover": "/img/events/prague.jpg",
+    "sessions": [
+      {
+        "title": "Need for speed: tools for JVM tuning",
+        "slides": "http://www.slideshare.net/aestasit/jvm-need-for-speed-tooling-overview-for-geecon-prague-2016"
+      }
+    ]
+  },
+  {
+    "date": "2016-09-22",
+    "title": "DevOps Linz",
+    "place": "Linz, Austria",
+    "url": "http://topconf.com/devops-linz-2016/",
+    "cover": "/img/events/linz.jpg",
+    "sessions": [
+      {
+        "title": "Patterns for infrastructure-as-code",
+        "slides": "http://www.slideshare.net/aestasit/patterns-for-infrastructureascode-for-devops-linz-2016",
+        "video": "https://www.youtube.com/watch?v=dy417uUWeT8"
+      },
+      {
+        "title": "Enterprise flight into DevOps space",
+        "slides": "http://www.slideshare.net/aestasit/enterprise-flight-into-devops-space-for-devops-linz-2016",
+        "video": "https://www.youtube.com/watch?v=EWr2N0CFEuE"
+      }
+    ]
+  },
+  {
+    "date": "2016-09-13",
+    "title": "jdk.io 2016",
+    "place": "Copenhagen, Denmark",
+    "url": "http://jdk.io/",
+    "cover": "/img/events/copenhagen.jpg",
+    "sessions": [
+      {
+        "title": "Ratpack: the core for your microservices",
+        "slides": "http://www.slideshare.net/aestasit/ratpack-the-core-for-your-microservices-for-jdkio-2016",
+        "video": "https://www.youtube.com/watch?v=eh1qQ8Lkhrg"
+      },
+      {
+        "title": "Ninja tricks for Groovy system scripting",
+        "slides": "http://www.slideshare.net/aestasit/ninja-tricks-for-groovy-system-scripting",
+        "video": "https://www.youtube.com/watch?v=ZhPsdvk95y0"
+      },
+      {
+        "title": "JVM: need for speed - tooling overview",
+        "slides": "http://www.slideshare.net/aestasit/jvm-need-for-speed-tooling-overview-for-jdkio-2016",
+        "video": "https://www.youtube.com/watch?v=c0aEqeP9cLE"
+      },
+      {
+        "title": "Dockerized Java"
+      }
+    ]
+  },
+  {
+    "date": "2016-07-07",
+    "title": "Latcraft | Docker 101",
+    "place": "Riga, Latvia",
+    "url": "http://latcraft.lv",
+    "cover": "/img/events/latcraft.jpg",
+    "sessions": [
+      {
+        "title": "Workshop: Docker 101",
+        "slides": "http://www.slideshare.net/aestasit/latcraft-docker-101"
+      }
+    ]
+  },
+  {
+    "date": "2016-05-26",
+    "title": "DevOps Pro",
+    "place": "Vilnius, Lithuania",
+    "url": "http://devopspro.lt/",
+    "cover": "/img/events/vilnius.jpg",
+    "sessions": [
+      {
+        "title": "Patterns for infrastructure-as-code",
+        "slides": "http://www.slideshare.net/aestasit/patterns-for-infrastructure-as-code-for-devopspro-2016",
+        "video": "https://www.youtube.com/watch?v=VJdZHNiK1VQ"
+      }
+    ]
+  },
+  {
+    "date": "2016-05-19",
+    "title": "IT.A.K.E Unconference 2016",
+    "place": "Bucharest, Romania",
+    "url": "http://itakeunconf.com/",
+    "cover": "/img/events/bucharest.jpg",
+    "sessions": [
+      {
+        "title": "Patterns for infrastructure-as-code",
+        "slides": "http://www.slideshare.net/aestasit/patterns-for-infrastructure-as-code-for-itake-2016",
+        "video": "https://www.youtube.com/watch?v=SEgxSKZjQ84"
+      },
+      {
+        "title": "Visualizing code bases",
+        "slides": "http://www.slideshare.net/aestasit/visualizing-code-bases-for-itake-2016",
+        "video": "https://www.youtube.com/watch?v=JK9r72vt68s"
+      }
+    ]
+  },
+  {
+    "date": "2016-05-09",
+    "title": "Baltic DevOps",
+    "place": "Tallinn, Estonia",
+    "url": "http://topconf.com/baltic-devops-2016/",
+    "cover": "/img/events/tallinn.jpg",
+    "sessions": [
+      {
+        "title": "DevOps MasterClass"
+      },
+      {
+        "title": "Patterns for infrastructure-as-code",
+        "slides": "http://www.slideshare.net/aestasit/patterns-for-infrastructure-as-code-for-baltic-devops-2016",
+        "video": "https://www.youtube.com/watch?v=fRs4ErlWgBI"
+      },
+      {
+        "title": "Enterprise flight into DevOps space",
+        "slides": "http://www.slideshare.net/aestasit/enterprise-flight-into-devops-space-for-baltic-devops-2016",
+        "video": "https://www.youtube.com/watch?v=WP-dlyrTIlI"
+      }
+    ]
+  },
+  {
+    "date": "2016-04-26",
+    "title": "CraftConf",
+    "place": "Budapest, Hungary",
+    "url": "http://www.craft-conf.com/2016",
+    "cover": "/img/events/budapest.jpg",
+    "sessions": [
+      {
+        "title": "Visualizing code bases",
+        "slides": "http://www.slideshare.net/aestasit/visualizing-code-bases-for-craftconf-2016-full-stack-meetup-budapest",
+        "video": "http://www.ustream.tv/recorded/88122524"
+      }
+    ]
+  },
+  {
+    "date": "2016-04-12",
+    "title": "Latcraft | Infrastructure as Code",
+    "place": "Riga, Latvia",
+    "url": "http://latcraft.lv",
+    "cover": "/img/events/latcraft.jpg",
+    "sessions": [
+      {
+        "title": "Patterns for Infrastructure-as-Code",
+        "slides": "http://www.slideshare.net/aestasit/patterns-for-infrastructureascode",
+        "video": "https://www.youtube.com/watch?v=29sRejfM8iQ"
+      }
+    ]
+  },
+  {
+    "date": "2016-04-08",
+    "title": "Greach 2016",
+    "place": "Madrid, Spain",
+    "url": "http://greachconf.com/",
+    "cover": "/img/events/madrid.jpg",
+    "sessions": [
+      {
+        "title": "Sshoogr for your infrastructure",
+        "slides": "http://www.slideshare.net/aestasit/sshoogr-for-your-infrastructure-for-greach-2016",
+        "video": "https://www.youtube.com/watch?v=5Q5IBIlkrOk"
+      }
+    ]
+  },
+  {
+    "date": "2016-03-19",
+    "title": "GR8Day Warsaw",
+    "place": "Warsaw, Poland",
+    "url": "http://warsaw.gr8days.pl/#/",
+    "cover": "/img/events/warsaw.jpg",
+    "sessions": [
+      {
+        "title": "Sshoogr for your infrastructure",
+        "slides": "http://www.slideshare.net/aestasit/sshoogr-for-your-infrastructure",
+        "video": "https://www.youtube.com/watch?v=Py73JGU-EFk"
+      }
+    ]
+  },
+  {
+    "date": "2016-03-08",
+    "title": "JavaLand",
+    "place": "Br\u00fchl, Germany",
+    "url": "https://www.javaland.eu/en/javaland-2016/",
+    "cover": "/img/events/javaland.jpg",
+    "sessions": [
+      {
+        "title": "Ninja Tricks for Groovy System Scripting",
+        "slides": "http://www.slideshare.net/aestasit/ninja-tricks-for-groovy-system-scripting-for-javaland-2016"
+      },
+      {
+        "title": "ElasticSearch: From Zero to Hero"
+      }
+    ]
+  },
+  {
+    "date": "2016-03-02",
+    "title": "RigaDevDay",
+    "place": "Riga, Latvia",
+    "url": "http://rigadevday.lv/#/index",
+    "cover": "/img/events/rigadevday2016.jpg",
+    "sessions": [
+      {
+        "title": "Jenkins at your (continuous) service",
+        "slides": "http://www.slideshare.net/aestasit/jenkins-at-your-continuous-service",
+        "video": "https://www.youtube.com/watch?v=olWtvEAWz-w"
+      },
+      {
+        "title": "Docker 101",
+        "slides": "http://www.slideshare.net/aestasit/docker-101-for-rigadevday-2016"
+      }
+    ]
+  },
+  {
+    "date": "2015-12-14",
+    "title": "Groovy & Grails eXchange",
+    "place": "London, UK",
+    "url": "https://skillsmatter.com/conferences/6863-groovy-grails-exchange-2015",
+    "cover": "/img/events/london.jpg",
+    "sessions": [
+      {
+        "title": "Rapid Web Application Development with Groovy & Ratpack",
+        "slides": "http://www.slideshare.net/aestasit/rapid-web-application-development-with-groovy-ratpack-for-ggx-2015",
+        "video": "https://skillsmatter.com/skillscasts/6922-rapid-web-application-development-with-groovy-and-ratpack"
+      },
+      {
+        "title": "Groovy DevOps",
+        "slides": "http://www.slideshare.net/aestasit/groovy-devops-for-ggx-2015",
+        "video": "https://skillsmatter.com/skillscasts/6921-groovy-devops-in-the-cloud"
+      }
+    ]
+  },
+  {
+    "date": "2015-12-01",
+    "title": "DevTernity",
+    "place": "Riga, Latvia",
+    "url": "http://devternity.com/2015/",
+    "cover": "/img/events/devternity2016.jpg"
+  },
+  {
+    "date": "2015-11-04",
+    "title": "Codemotion",
+    "place": "Berlin, Germany",
+    "url": "http://codemotionworld.com/",
+    "cover": "/img/events/berlin.jpg",
+    "sessions": [
+      {
+        "title": "Patterns for \"infrastructure-as-code\"",
+        "slides": "http://www.slideshare.net/aestasit/patterns-for-infrastructureascode"
+      }
+    ]
+  },
+  {
+    "date": "2015-11-02",
+    "title": "Clean Code Days",
+    "place": "Munich, Germany",
+    "url": "http://www.cleancode-days.de/",
+    "cover": "/img/events/munich.jpg",
+    "sessions": [
+      {
+        "title": "Visualizing code bases",
+        "slides": "http://www.slideshare.net/aestasit/visualizing-code-bases"
+      }
+    ]
+  },
+  {
+    "date": "2015-10-12",
+    "title": "JDD",
+    "place": "Krakow, Poland",
+    "url": "http://jdd.org.pl/",
+    "cover": "/img/events/krakow.jpg",
+    "sessions": [
+      {
+        "title": "Ratpack - the core for your microservices",
+        "slides": "http://www.slideshare.net/aestasit/ratpack-the-core-for-your-microservices-for-jdd-2015",
+        "video": "https://www.youtube.com/watch?v=urLwe7YxKjA"
+      }
+    ]
+  },
+  {
+    "date": "2015-10-08",
+    "title": "javagruppen.dk",
+    "place": "Copenhagen, Denmark",
+    "url": "https://www.eventbrite.com/e/javagruppen-ga-hjem-mde-tickets-18880683633",
+    "cover": "/img/events/copenhagen.jpg",
+    "sessions": [
+      {
+        "title": "JVM tooling overview",
+        "slides": "http://www.slideshare.net/aestasit/need-for-speed-jvm-tooling-overview-for-vilnius-juggdg"
+      }
+    ]
+  },
+  {
+    "date": "2015-10-06",
+    "title": "Latcraft | Java",
+    "place": "Riga, Latvia",
+    "url": "http://latcraft.lv/",
+    "cover": "/img/events/latcraft.jpg",
+    "sessions": [
+      {
+        "title": "Need for speed: JVM tooling overview",
+        "slides": "http://www.slideshare.net/aestasit/need-for-speed-jvm-tooling-overview-for-vilnius-juggdg",
+        "video": "https://www.youtube.com/watch?v=h0GttvkeQcg"
+      }
+    ]
+  },
+  {
+    "date": "2015-09-26",
+    "title": "ByCraft",
+    "place": "Minsk, Belarus",
+    "url": "http://bycraft.by/",
+    "cover": "/img/events/minsk.jpg",
+    "sessions": [
+      {
+        "title": "Polyglot Infrastructure",
+        "slides": "http://www.slideshare.net/aestasit/polyglot-infrastructure-for-bycraft-2015",
+        "video": "https://www.youtube.com/watch?v=LN-wuMTcEII"
+      }
+    ]
+  },
+  {
+    "date": "2015-09-24",
+    "title": "Vilnius JUG",
+    "place": "Vilnius, Lithuania",
+    "url": "http://lanyrd.com/2015/vilnius-jugvilnius-gdg-meeting-44/",
+    "cover": "/img/events/vilnius.jpg",
+    "sessions": [
+      {
+        "title": "Need for speed: JVM tooling overview",
+        "slides": "http://www.slideshare.net/aestasit/need-for-speed-jvm-tooling-overview-for-vilnius-juggdg"
+      }
+    ]
+  },
+  {
+    "date": "2015-07-31",
+    "title": "GR8Conf US",
+    "place": "Minneapolis, US",
+    "url": "http://gr8conf.us",
+    "cover": "/img/events/minneapolis.jpg",
+    "sessions": [
+      {
+        "title": "Infrastructure Automation with Gradle and Puppet",
+        "time": "08:00",
+        "slides": "http://www.slideshare.net/aestasit/infrastructure-automation-with-gradle-and-puppet-for-gr8conf-us-2015"
+      },
+      {
+        "title": "Groovy DevOps in the Cloud",
+        "time": "11:30",
+        "slides": "http://www.slideshare.net/aestasit/groovy-devops-in-the-cloud-for-gr8conf-us-2015",
+        "video": "https://www.youtube.com/watch?v=7G6z7Lqxqtw"
+      }
+    ]
+  },
+  {
+    "date": "2015-06-09",
+    "title": "Latcraft | Ops",
+    "place": "Riga, Latvia",
+    "url": "http://latcraft.lv",
+    "cover": "/img/events/latcraft.jpg",
+    "sessions": [
+      {
+        "title": "Story of dependency managers",
+        "slides": "http://www.slideshare.net/aestasit/story-of-dependency-managers"
+      }
+    ]
+  },
+  {
+    "date": "2015-06-02",
+    "title": "GR8Conf EU",
+    "place": "Copenhagen, Denmark",
+    "url": "http://gr8conf.eu/#/",
+    "cover": "/img/events/copenhagen.jpg",
+    "sessions": [
+      {
+        "title": "Infrastructure Automation with Gradle and Puppet",
+        "time": "12:30",
+        "slides": "http://www.slideshare.net/aestasit/infrastructure-automation-with-gradle-and-puppet"
+      },
+      {
+        "title": "Rapid Web Application Development with Groovy and Ratpack",
+        "time": "10:40",
+        "slides": "http://www.slideshare.net/aestasit/rapid-web-application-development-with-groovy-ratpack-for"
+      }
+    ]
+  },
+  {
+    "date": "2015-05-21",
+    "title": "DevClub | DevOps",
+    "place": "Riga, Latvia",
+    "url": "http://devclub.lv",
+    "cover": "/img/events/riga.jpg",
+    "sessions": [
+      {
+        "title": "Enterprise flight into DevOps space",
+        "slides": "https://www.slideshare.net/aestasit/enterprise-flight-into-devops-space-for-rigadevday-2015",
+        "video": "https://www.youtube.com/watch?v=avUWvtpr65A"
+      }
+    ]
+  },
+  {
+    "date": "2015-04-20",
+    "title": "JAX",
+    "place": "Mainz, Germany",
+    "url": "http://jax.de/",
+    "cover": "/img/events/mainz.jpg",
+    "sessions": [
+      {
+        "title": "Enterprise flight into DevOps space",
+        "slides": "http://www.slideshare.net/aestasit/enterprise-flight-into-devops-space-jaxde"
+      }
+    ]
+  },
+  {
+    "date": "2015-04-10",
+    "title": "Greach",
+    "place": "Madrid, Spain",
+    "url": "http://greachconf.com/",
+    "cover": "/img/events/madrid.jpg",
+    "sessions": [
+      {
+        "title": "Infrastructure Automation with Gradle and Puppet",
+        "time": "11:15",
+        "slides": "http://www.slideshare.net/aestasit/infrastructure-automation-with-gradle-and-puppet-at-greach-2015"
+      }
+    ]
+  },
+  {
+    "date": "2015-03-24",
+    "title": "Javaland",
+    "place": "Br\u00fchl, Germany",
+    "url": "http://gr8conf.eu/#/",
+    "cover": "/img/events/javaland.jpg",
+    "sessions": [
+      {
+        "title": "Rapid Web Application Development with Groovy & Ratpack",
+        "time": "14:00",
+        "slides": "http://www.slideshare.net/aestasit/rapid-web-application-development-with-groovy-ratpack-for-javaland-2015"
+      }
+    ]
+  },
+  {
+    "date": "2015-03-23",
+    "title": "DevWeek",
+    "place": "London, UK",
+    "url": "http://devweek.com/",
+    "cover": "/img/events/london.jpg",
+    "sessions": [
+      {
+        "title": "Groovy DevOps in the Cloud",
+        "time": "14:00",
+        "video": "https://www.youtube.com/watch?v=8mFD6C1tVCI"
+      }
+    ]
+  },
+  {
+    "date": "2015-02-02",
+    "title": "JFokus",
+    "place": "Stockholm, Sweden",
+    "url": "http://www.jfokus.se/jfokus/",
+    "cover": "/img/events/stockholm_wf.jpg",
+    "sessions": [
+      {
+        "title": "Infrastructure Automation with Gradle and Puppet",
+        "time": "13:30"
+      },
+      {
+        "title": "Ninja tricks for Groovy system scripting",
+        "time": "10:10",
+        "slides": "http://www.slideshare.net/aestasit/ninja-tricks-for-groovy-system-scripting-on-jfokus-2015"
+      }
+    ]
+  },
+  {
+    "date": "2015-01-22",
+    "title": "RigaDevDay",
+    "place": "Riga, Latvia",
+    "url": "http://rigadevday.lv/",
+    "cover": "/img/events/riga.jpg",
+    "sessions": [
+      {
+        "title": "Enterprise flight into DevOps space",
+        "time": "14:10",
+        "slides": "http://www.slideshare.net/aestasit/enterprise-flight-into-devops-space-for-rigadevday-2015",
+        "video": "https://www.youtube.com/watch?v=ZwNRIrbLMQ0&feature=youtu.be&a"
+      }
+    ]
+  },
+  {
+    "date": "2014-11-28",
+    "title": "CodeMotion Milan",
+    "place": "Milan, Italy",
+    "url": "http://lanyrd.com/2014/codemotionit/",
+    "cover": "/img/events/milan.jpg",
+    "sessions": [
+      {
+        "title": "PC = Personal Cloud",
+        "slides": "http://www.slideshare.net/aestasit/pc-personal-cloud"
+      }
+    ]
+  },
+  {
+    "date": "2014-11-12",
+    "title": "DevConFu",
+    "place": "Jurmala, Latvia",
+    "url": "http://lanyrd.com/2014/devconfu-riga-november/",
+    "cover": "/img/events/jurmala.jpg",
+    "sessions": [
+      {
+        "title": "Enterprise flight into DevOps space",
+        "video": "https://www.youtube.com/watch?v=6zgeVCUelzM&feature=youtu.be"
+      },
+      {
+        "title": "Extreme automation"
+      }
+    ]
+  },
+  {
+    "date": "2014-10-17",
+    "title": "OpenSlava",
+    "place": "Bratislava, Slovakia",
+    "url": "http://www.openslava.sk/2014/",
+    "cover": "/img/events/bratislava.jpg",
+    "sessions": [
+      {
+        "title": "Groovy DevOps in the Cloud",
+        "slides": "http://www.slideshare.net/aestasit/groovy-dev-ops-in-the-cloud-at-openslava",
+        "video": "https://www.youtube.com/watch?v=wxqyca9CxoM"
+      }
+    ]
+  },
+  {
+    "date": "2014-06-12",
+    "title": "Devoxx UK",
+    "place": "London, UK",
+    "url": "http://www.devoxx.co.uk/",
+    "cover": "/img/events/london.jpg",
+    "sessions": [
+      {
+        "title": "Groovy DevOps in the Cloud",
+        "slides": "http://www.slideshare.net/aestasit/groovy-devops-in-the-cloud"
+      }
+    ]
+  },
+  {
+    "date": "2014-05-26",
+    "title": "DevConFu",
+    "place": "Jurmala, Latvia",
+    "url": "http://lanyrd.com/2014/devconfu/",
+    "cover": "/img/events/jurmala.jpg",
+    "sessions": [
+      {
+        "title": "Groovy DevOps in the Cloud",
+        "slides": "http://www.slideshare.net/aestasit/groovy-dev-ops-in-the-cloud"
+      }
+    ]
+  },
+  {
+    "date": "2014-04-04",
+    "title": "DevOpsDays Ljubljana",
+    "place": "Ljubljana, Slovenia",
+    "url": "http://www.devopsdays.org/events/2014-ljubljana/",
+    "cover": "/img/events/ljubljana.jpg",
+    "sessions": [
+      {
+        "title": "Groovy DevOps in the Cloud",
+        "slides": "http://www.slideshare.net/aestasit/groovy-dev-ops-in-the-cloud-for-devopsdays-in-ljubljana",
+        "video": "http://new.livestream.com/accounts/564247/events/2890324"
+      }
+    ]
+  },
+  {
+    "date": "2013-11-28",
+    "title": "Java Day",
+    "place": "Riga, Latvia",
+    "url": "http://javaday.lv/",
+    "cover": "/img/events/riga.jpg",
+    "sessions": [
+      {
+        "title": "Groovy DevOps in the Cloud",
+        "slides": "http://www.slideshare.net/aestasit/groovy-dev-ops-in-the-cloud"
+      }
+    ]
+  },
+  {
+    "date": "2013-11-13",
+    "title": "DevConFu",
+    "place": "Jurmala, Latvia",
+    "url": "http://lanyrd.com/2013/devconfu/",
+    "cover": "/img/events/jurmala.jpg",
+    "sessions": [
+      {
+        "title": "Scaling Software Builds with Jenkins",
+        "slides": "http://www.slideshare.net/aestasit/scaling-software-builds-with-jenkins"
+      }
+    ]
+  },
+  {
+    "date": "2013-10-17",
+    "title": "16th DevClub",
+    "place": "Riga, Latvia",
+    "url": "http://www.eventbrite.com/e/16th-devclublv-tickets-8606635679",
+    "cover": "/img/events/riga.jpg",
+    "sessions": [
+      {
+        "title": "Developer-Friendly Presentations",
+        "slides": "http://www.slideshare.net/aestasit/developer-friendly-presentations",
+        "video": "http://vimeo.com/92909155"
+      }
+    ]
+  },
+  {
+    "date": "2013-02-21",
+    "title": "jug.lv",
+    "place": "Riga, Latvia",
+    "url": "http://jug.lv/post/19901341207/speakers",
+    "cover": "/img/events/riga.jpg",
+    "sessions": [
+      {
+        "title": "Thread dump analysis",
+        "slides": "http://www.slideshare.net/buzdin/thread-dump-analysis"
+      }
+    ]
+  },
+  {
+    "date": "2012-11-29",
+    "title": "JavaDay Riga",
+    "place": "Riga, Latvia",
+    "url": "http://2012.javaday.lv/",
+    "cover": "/img/events/riga.jpg",
+    "sessions": [
+      {
+        "title": "Multi-module project build with Gradle"
+      }
+    ]
+  },
+  {
+    "date": "2012-05-24",
+    "title": "jug.lv",
+    "place": "Riga, Latvia",
+    "url": "http://jug.lv/post/19901341207/speakers",
+    "cover": "/img/events/riga.jpg",
+    "sessions": [
+      {
+        "title": "Internal DSLs in Scala",
+        "slides": "http://www.slideshare.net/aestasit/internal-dsls-in-scala-12819427"
+      }
+    ]
+  },
+  {
+    "date": "2011-10-20",
+    "title": "jug.lv",
+    "place": "Riga, Latvia",
+    "url": "http://jug.lv/post/19901341207/speakers",
+    "cover": "/img/events/riga.jpg",
+    "sessions": [
+      {
+        "title": "Introduction to Gradle",
+        "slides": "http://www.slideshare.net/aestasit/introduction-to-gradle"
+      }
+    ]
+  }
+]

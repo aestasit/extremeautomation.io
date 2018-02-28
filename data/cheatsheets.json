@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Docker Cheatsheet",
+    "slug": "docker-cheatsheet",
+    "image": "/img/cheatsheets/cheat_sheet_docker_page_1.png",
+    "thumb": "/img/cheatsheets/cheat_sheet_docker_page_1_thumb.png"
+  },
+  {
+    "title": "Java 8 Cheatsheet",
+    "slug": "java8-cheatsheet",
+    "image": "/img/cheatsheets/cheat_sheet_java8.png",
+    "thumb": "/img/cheatsheets/cheat_sheet_java8_thumb.png"
+  },
+  {
+    "title": "JVM Internals Cheatsheet Page 1",
+    "slug": "jvm-cheatsheet1",
+    "image": "/img/cheatsheets/cheat_sheet_jvm_page_1.png",
+    "thumb": "/img/cheatsheets/cheat_sheet_jvm_page_1_thumb.png"
+  },
+  {
+    "title": "JVM Internals Cheatsheet Page 2",
+    "slug": "jvm-cheatsheet2",
+    "image": "/img/cheatsheets/cheat_sheet_jvm_page_2.png",
+    "thumb": "/img/cheatsheets/cheat_sheet_jvm_page_2_thumb.png"
+  }
+]

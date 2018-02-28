@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[Extreme Automation]]></title>
+        <description><![CDATA[Extreme Automation]]></description>
+        <link>http://extremeautomation.io</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 28 Feb 2018 18:24:49 GMT</lastBuildDate>
+        <atom:link href="http://extremeautomation.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Enterprise flight into DevOps space]]></title>
+            <description><![CDATA[Enterprise is a word that is highly abused. Most people associate it with slow inefficient processes. Nobody wants to be there!]]></description>
+            <guid isPermaLink="false">Enterprise flight into DevOps space</guid>
+            <dc:creator><![CDATA[1]]></dc:creator>
+            <pubDate>Tue, 28 Feb 2017 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Introduction to sshoogr]]></title>
+            <description><![CDATA[A Groovy-based DSL library for working with remote servers through SSH. The DSL allows: connecting; executing remote commands; copying files and directories; creating tunnels in a simple and concise way.]]></description>
+            <guid isPermaLink="false">Introduction to sshoogr</guid>
+            <dc:creator><![CDATA[1]]></dc:creator>
+            <pubDate>Mon, 03 Jun 2013 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
