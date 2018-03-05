@@ -113,15 +113,15 @@
     "icon": "/img/logos/docker.png",
     "abstract": "This is a 2-day practical workshop that covers Docker functionality, use cases and deployment scenarios.",
     "description": [
-      "Docker has taken our industry by storm. Hardly anyone can ignore the usefulness of containerized application. Containers allow encapsulating part of your system configuration making it easier to distribute and manage applications at scale.",
+      "Docker has taken our industry by storm. Hardly anyone can ignore the usefulness of containerized applications. Containers allow encapsulating part of your system configuration making it easier to distribute and manage applications at scale.",
       "This is a 2-day practical workshop that covers Docker functionality, use cases and deployment scenarios. It is targeted at software developers and system administrators willing to integrate containers into software delivery and maintenance processes.",
       "The workshop includes a lot of hands-on exercises that are based on real-life experience. All participants will receive cheatsheets as well as get access to online slides and all the code."
     ],
     "results": [
       "Understand concepts behind container technology",
-      "Use containers effectively to distribute applications",
+      "Use containers effectively to distribute and run applications",
       "Integrate containers into effective software delivery pipelines",
-      "Orchestrate, scale and monitor container-based setups"
+      "Orchestrate, scale and monitor container-based configurations"
     ],
     "modules": [
       {
@@ -408,7 +408,9 @@
     "icon": "/img/logos/jenkins.png",
     "abstract": "This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines.",
     "description": [
-      "This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines."
+      "",
+      "This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines.",
+      ""
     ],
     "modules": [
       {
@@ -420,7 +422,7 @@
           },
           {
             "type": "p",
-            "content": "Jenkins overview: jobs, projects, builds, queue"
+            "content": "Jenkins overview: jobs, projects, builds, queue, triggers"
           }
         ]
       },
@@ -514,11 +516,16 @@
     "difficulty": "easy",
     "duration": "1 day",
     "icon": "/img/logos/git.png",
-    "abstract": "This 1-day workshop will familiarize you with Git fundamentals. Lots of practical exercises and tricks will make you more effective working with the most popular version control system on the planet.",
+    "abstract": "This one-day workshop will familiarize you with Git fundamentals. Lots of practical exercises and tricks will make you more effective working with the most popular version control system on the planet.",
     "description": [
-      "This 1-day workshop will familiarize you with Git fundamentals. Lots of practical exercises and tricks will make you more effective working with the most popular version control system on the planet."
+      "This one-day workshop will familiarize you with Git fundamentals. Lots of practical exercises and tricks will make you more effective working with the most popular version control system on the planet.",
+      "Learn how to organize your daily work with Git and become proficient with branching and merging, resetting and rebasing, creating pull requests and forking."
     ],
     "results": [
+      "Learn Git commands, shortcuts and tricks",
+      "Understand the concepts behind Git index organization",
+      "Know the difference between merge, rebase, revert, and reset",
+      "Become confident with branching and merging strategies"
     ],
     "modules": [
       {
@@ -583,11 +590,11 @@
           },
           {
             "type": "p",
-            "content": "Cleaning workging tree with git clean"
+            "content": "Cleaning working tree with git clean"
           },
           {
             "type": "p",
-            "content": "Forgeting history with git reset"
+            "content": "Forgetting history with git reset"
           },
           {
             "type": "p",
@@ -650,7 +657,7 @@
         ]
       },
       {
-        "name": "Git workflows",
+        "name": "Git work flows",
         "content": [
           {
             "type": "p",
