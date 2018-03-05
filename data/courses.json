@@ -516,7 +516,7 @@
     "difficulty": "intermediate",
     "duration": "1 day",
     "icon": "/img/logos/git.png",
-    "abstract": "This one-day workshop will familiarize you with Git fundamentals - the most popular version control system on the planet.",
+    "abstract": "This one-day workshop will familiarize you with fundamentals of Git - the most popular version control system on the planet.",
     "description": [
       "This one-day workshop will familiarize you with Git fundamentals. Lots of practical exercises and tricks will make you more effective working with the most popular version control system on the planet.",
       "Learn how to organize your daily work with Git and become proficient with branching and merging, resetting and rebasing, creating pull requests and forking, stashing and making partial commits as well as many more useful tools that Git has."
