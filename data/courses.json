@@ -524,7 +524,7 @@
     "results": [
       "Learn Git commands, shortcuts and tricks",
       "Understand the concepts behind Git index organization",
-      "Know the difference between merge, rebase, revert, and reset",
+      "Know the difference between merge, rebase, and reset",
       "Become confident with branching and merging strategies"
     ],
     "modules": [
