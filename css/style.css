@@ -3229,7 +3229,7 @@ section#course-results, section#course-delivery, section#course-materials {
     background-color: #f55f74;
     padding: 5px; }
   section#course-results .block-title .tagline, section#course-delivery .block-title .tagline, section#course-materials .block-title .tagline {
-    font-size: 16px;
+    font-size: 12px;
     font-style: italic;
     width: 100%;
     max-width: 440px;
