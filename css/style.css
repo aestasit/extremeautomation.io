@@ -3236,6 +3236,8 @@ section#course-results, section#course-delivery, section#course-materials {
     width: 100%;
     max-width: 440px;
     margin: 0 auto; }
+  section#course-results img, section#course-delivery img, section#course-materials img {
+    width: 100%; }
   section#course-results ul, section#course-delivery ul, section#course-materials ul {
     margin: 0;
     padding-left: 60px;
