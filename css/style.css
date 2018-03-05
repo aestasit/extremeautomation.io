@@ -3219,25 +3219,28 @@ section#course-details {
     section#course-details .icons {
       margin-right: 0; } }
 
-section#course-results {
+section#course-results, section#course-delivery, section#course-materials {
   padding: 0 0 80px 0; }
-  section#course-results .container {
+  section#course-results .container, section#course-delivery .container, section#course-materials .container {
     max-width: 620px; }
-  section#course-results .block-title h2 {
-    font-size: 24px; }
-  section#course-results .block-title .tagline {
+  section#course-results .block-title h2, section#course-delivery .block-title h2, section#course-materials .block-title h2 {
+    font-size: 24px;
+    color: #fff;
+    background-color: #f55f74;
+    padding: 5px; }
+  section#course-results .block-title .tagline, section#course-delivery .block-title .tagline, section#course-materials .block-title .tagline {
     font-size: 16px;
     font-style: italic;
     width: 100%;
     max-width: 440px;
     margin: 0 auto; }
-  section#course-results ul {
+  section#course-results ul, section#course-delivery ul, section#course-materials ul {
     margin: 0;
     padding-left: 60px;
     width: 100%;
     list-style-type: disc;
     list-style-position: outside; }
-    section#course-results ul li {
+    section#course-results ul li, section#course-delivery ul li, section#course-materials ul li {
       margin: 0;
       color: #212121; }
 
