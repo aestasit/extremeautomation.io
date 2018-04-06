@@ -4,8 +4,15 @@
         <description><![CDATA[Extreme Automation]]></description>
         <link>http://extremeautomation.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 24 Mar 2018 21:28:44 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 06 Apr 2018 22:08:30 GMT</lastBuildDate>
         <atom:link href="http://extremeautomation.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[LatCraft - Latvian Software Craftsmanship Community]]></title>
+            <description><![CDATA[LatCraft....]]></description>
+            <guid isPermaLink="false">LatCraft - Latvian Software Craftsmanship Community</guid>
+            <dc:creator><![CDATA[1]]></dc:creator>
+            <pubDate>Sat, 31 Mar 2018 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Enterprise flight into DevOps space]]></title>
             <description><![CDATA[Enterprise is a word that is highly abused. Most people associate it with slow inefficient processes. Nobody wants to be there!]]></description>
