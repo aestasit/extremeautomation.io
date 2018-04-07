@@ -11,7 +11,8 @@
     "abstract": "DevOps is a growing movement that encourages closer collaboration of developers and system operations to help business goals to be achieved efficiently and on time.",
     "description": [
       "DevOps is a growing movement that encourages closer collaboration of developers and system operations to help business goals to be achieved efficiently and on time. Software development and infrastructure scaling are very fast-paced nowadays. That brings a necessity of larger automation, measurement and information sharing for all involved processes.",
-      "This 3-day workshop focuses on solving challenges that organisations face when implementing DevOps initiatives. It introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like Vagrant, Docker, AWS and others are given during this workshop."
+      "This 3-day workshop focuses on solving challenges that organisations face when implementing DevOps initiatives. It introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like Vagrant, Docker, AWS, Kubernetes and others are given during this workshop.",
+      ""
     ],
     "urls": [
       {
@@ -26,6 +27,9 @@
       }
     ],
     "results": [
+      "Understand the principles of DevOps",
+      "Have a tool set to choose from",
+      "Start automating "
     ],
     "modules": [
       {
@@ -254,7 +258,19 @@
     "icon": "/img/logos/ansible.png",
     "abstract": "This is a two-day deep-dive into infrastructure automation and management with the help of Ansible.",
     "description": [
-      "This is a two-day deep-dive into infrastructure automation and management with the help of Ansible."
+      "This is a two-day deep-dive into infrastructure automation and management with the help of Ansible.",
+      "The simplicity, elegance and power of Ansible playbooks and roles will give you a head-start with any automation tasks: provisioning, deployments, updates, rolling updates, audit.",
+      "Starting from simple installation and configuration management to complex orchestration, custom modules...",
+      ""
+    ],
+    "results": [
+      "Implement playbooks for in",
+      "Reusable Ansible roles",
+      "Managing static and dynamic inventory of servers and network devices",
+      "Complex logic, data structures and ",
+      "Organize code",
+      "Implement rolling updates and zero down-time strategies",
+      "Writing custom Ansible modules"
     ],
     "modules": [
       {
@@ -351,9 +367,18 @@
     "icon": "/img/logos/terraform.png",
     "abstract": "This workshop consists of 2 days spent on improving your skills of cloud infrastructure provisioning with the help of the mighty Terraform.",
     "description": [
-      "This workshop consists of 2 days spent on improving your skills of cloud infrastructure provisioning with the help of the mighty Terraform."
+      "This workshop consists of two days spent on improving your skills of cloud infrastructure provisioning with the help of the mighty Terraform.",
+      "By using declarative language (HCL) to describe cloud resources and ...",
+      "State management and sharing with the help of workspaces and external storage engines...",
+      "Organizing code base, orchestrating cluster deployments... implementing modules"
     ],
     "results": [
+      "Define catalog of cloud resources",
+      "Use Terraform workspaces for multiple environment built from the same template",
+      "Create multi-provider configurations to unite heterogeneous infrastructure",
+      "Create reusable Terraform modules",
+      "Write custom Terraform providers",
+      "Integrate with provisioning and configuration management tools"
     ],
     "modules": [
       {
@@ -408,9 +433,18 @@
     "icon": "/img/logos/jenkins.png",
     "abstract": "This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines.",
     "description": [
-      "",
+      "Jenkins is de-facto standard ...",
       "This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines.",
-      ""
+      "Effective software delivery ....",
+      "Planning capacity, agent network, dynamic agents, docker integration..."
+    ],
+    "results": [
+      "Create jobs and pipelines of different complexity...",
+      "Manage Jenkins installation by keeping sane...",
+      "Integrations with version control services, hooks, mail, issue tracking systems...",
+      "Notifications ...",
+      "Multi-branch pipelines, folders, views, ....",
+      "Security, integration with LDAP/AD, "
     ],
     "modules": [
       {
