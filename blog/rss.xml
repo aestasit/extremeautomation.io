@@ -4,7 +4,7 @@
         <description><![CDATA[Extreme Automation]]></description>
         <link>http://extremeautomation.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 07 Apr 2018 15:36:46 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Apr 2018 16:55:29 GMT</lastBuildDate>
         <atom:link href="http://extremeautomation.io/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
             <title><![CDATA[Latvian Software Craftsmanship Community]]></title>
@@ -12,6 +12,13 @@
             <guid isPermaLink="false">Latvian Software Craftsmanship Community</guid>
             <dc:creator><![CDATA[1]]></dc:creator>
             <pubDate>Sat, 31 Mar 2018 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Bots at community service]]></title>
+            <description><![CDATA[Bots, bots, bots everywhere]]></description>
+            <guid isPermaLink="false">Bots at community service</guid>
+            <dc:creator><![CDATA[1]]></dc:creator>
+            <pubDate>Wed, 25 Oct 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Enterprise flight into DevOps space]]></title>
