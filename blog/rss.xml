@@ -4,12 +4,12 @@
         <description><![CDATA[Extreme Automation]]></description>
         <link>http://extremeautomation.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 06 Apr 2018 22:08:30 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 07 Apr 2018 07:14:06 GMT</lastBuildDate>
         <atom:link href="http://extremeautomation.io/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[LatCraft - Latvian Software Craftsmanship Community]]></title>
-            <description><![CDATA[LatCraft....]]></description>
-            <guid isPermaLink="false">LatCraft - Latvian Software Craftsmanship Community</guid>
+            <title><![CDATA[Latvian Software Craftsmanship Community]]></title>
+            <description><![CDATA[LatCraft is the community of awesome Latvian software craftsmen and craftswomen. We host events, where we invite amazing speakers from across the world.]]></description>
+            <guid isPermaLink="false">Latvian Software Craftsmanship Community</guid>
             <dc:creator><![CDATA[1]]></dc:creator>
             <pubDate>Sat, 31 Mar 2018 00:00:00 GMT</pubDate>
         </item>
