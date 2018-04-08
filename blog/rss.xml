@@ -4,34 +4,36 @@
         <description><![CDATA[Extreme Automation]]></description>
         <link>http://extremeautomation.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 07 Apr 2018 16:57:54 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 08 Apr 2018 14:10:26 GMT</lastBuildDate>
         <atom:link href="http://extremeautomation.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[DevOps academy experiences]]></title>
+            <description><![CDATA[The path of extreme automation.]]></description>
+            <guid isPermaLink="false">DevOps academy experiences</guid>
+            <pubDate>Tue, 10 Apr 2018 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Latvian Software Craftsmanship Community]]></title>
             <description><![CDATA[LatCraft is the community of awesome Latvian software craftsmen and craftswomen. We host events, where we invite amazing speakers from across the world.]]></description>
             <guid isPermaLink="false">Latvian Software Craftsmanship Community</guid>
-            <dc:creator><![CDATA[1]]></dc:creator>
             <pubDate>Sat, 31 Mar 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Bots at community service]]></title>
-            <description><![CDATA[Bots, bots, bots everywhere]]></description>
+            <description><![CDATA[Local software community/meetup management involves a lot of repetitive tasks: event publishing, notifications, statistical reports. Groovy, AWS Lambda, Terraform and Slack appeared to be a good combination to help creating valuable automation scripts and bots integrated into team's chat and ready to help.]]></description>
             <guid isPermaLink="false">Bots at community service</guid>
-            <dc:creator><![CDATA[1]]></dc:creator>
             <pubDate>Wed, 25 Oct 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Enterprise flight into DevOps space]]></title>
             <description><![CDATA[Enterprise is a word that is highly abused. Most people associate it with slow inefficient processes. Nobody wants to be there!]]></description>
             <guid isPermaLink="false">Enterprise flight into DevOps space</guid>
-            <dc:creator><![CDATA[1]]></dc:creator>
             <pubDate>Tue, 28 Feb 2017 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Introduction to sshoogr]]></title>
             <description><![CDATA[A Groovy-based DSL library for working with remote servers through SSH. The DSL allows: connecting; executing remote commands; copying files and directories; creating tunnels in a simple and concise way.]]></description>
             <guid isPermaLink="false">Introduction to sshoogr</guid>
-            <dc:creator><![CDATA[1]]></dc:creator>
             <pubDate>Mon, 03 Jun 2013 00:00:00 GMT</pubDate>
         </item>
     </channel>

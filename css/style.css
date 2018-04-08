@@ -46,10 +46,12 @@ blockquote, q {
   quotes: "" ""; }
 
 html {
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 *, *::after, *::before {
-  box-sizing: inherit; }
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
 
 /* Magnific Popup CSS */
 .mfp-bg {
@@ -81,7 +83,8 @@ html {
   left: 0;
   top: 0;
   padding: 0 8px;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 .mfp-container:before {
   content: '';
@@ -169,7 +172,8 @@ button.mfp-arrow {
   outline: none;
   padding: 0;
   z-index: 1046;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   -ms-touch-action: manipulation;
       touch-action: manipulation; }
 
@@ -307,7 +311,8 @@ button::-moz-focus-inner {
   left: 0;
   width: 100%;
   height: 100%;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   background: #000; }
 
 /* Main image in popup */
@@ -317,7 +322,8 @@ img.mfp-img {
   height: auto;
   display: block;
   line-height: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 40px 0 40px;
   margin: 0 auto; }
 
@@ -336,7 +342,8 @@ img.mfp-img {
   width: auto;
   height: auto;
   z-index: -1;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
   background: #444; }
 
 .mfp-figure small {
@@ -391,7 +398,8 @@ img.mfp-img {
     top: auto;
     padding: 3px 5px;
     position: fixed;
-    box-sizing: border-box; }
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
   .mfp-img-mobile .mfp-bottom-bar:empty {
     padding: 0; }
   .mfp-img-mobile .mfp-counter {
@@ -500,6 +508,14 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 
 .hljs-strong {
   font-weight: bold; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
 
 /* grid settings */
 /* breakpoints */
@@ -2311,6 +2327,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 .markdown a {
   font-weight: 700;
   -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s; }
 
 .markdown ul, .markdown ol {
@@ -2363,7 +2380,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 .markdown .img-wrap {
   background: #F9F9FF;
   border: 1px solid #e6e6e6;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
   margin: 0 0 20px;
   padding: 20px;
   width: 100%;
@@ -2372,7 +2390,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 .markdown .small-wrap {
   background: #F9F9FF;
   border: 1px solid #e6e6e6;
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
   margin: 0 0 20px;
   padding: 10px;
   width: auto;
@@ -2420,7 +2439,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
   padding-left: 1em; }
 
 .markdown code {
-  border-radius: 3px;
+  -webkit-border-radius: 3px;
+          border-radius: 3px;
   width: 100%;
   padding: 3px 4px;
   margin-top: -3px;
@@ -2437,7 +2457,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
   margin: 0 0 30px 0; }
   .markdown pre code {
     margin: 0;
-    border-radius: 3px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
     width: 100%;
     padding: 10px 14px 10px 40px;
     background: #F0F0F0;
@@ -2469,10 +2490,6 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
   font-weight: 400;
   font-family: 'Droid Serif', serif; }
 
-@media screen and (min-width: 1120px) {
-  .markdown pre {
-    margin: 0 -40px 30px -40px; } }
-
 .block-title {
   text-align: center;
   margin: 0 0 40px 0; }
@@ -2500,7 +2517,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
     display: block;
     text-align: center;
     font-size: 22px;
-    border-radius: 30px;
+    -webkit-border-radius: 30px;
+            border-radius: 30px;
     text-align: center; }
     .social a i, .share a i {
       color: #f3f3f3; }
@@ -2551,10 +2569,12 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
         -ms-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
     -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
     transition: all 1s ease; }
     .lightbox .image img {
       max-width: 100%;
-      border-radius: 4px;
+      -webkit-border-radius: 4px;
+              border-radius: 4px;
       display: inline-block;
       width: auto;
       height: auto;
@@ -2578,7 +2598,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
   .input-group input, .input-group textarea, .input-group select {
     width: 100%;
     border: none;
-    border-radius: 3px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
     padding: 12px 14px;
     background: #fff;
     float: left;
@@ -2587,6 +2608,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
     font-family: "Montserrat", Arial, sans-serif;
     font-weight: 400;
     -webkit-transition: border 0.4s, padding 0.4s;
+    -o-transition: border 0.4s, padding 0.4s;
     transition: border 0.4s, padding 0.4s;
     -webkit-appearance: none; }
     .input-group input[invalid], .input-group textarea[invalid], .input-group select[invalid] {
@@ -2608,7 +2630,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
     float: left;
     cursor: pointer;
     background-image: url("/img/chevron-down.png") no-repeat right 12px center;
-    background-size: 10px 7px; }
+    -webkit-background-size: 10px 7px;
+            background-size: 10px 7px; }
   .input-group label, .input-group .label {
     margin: 0 0 6px 0;
     color: #707070;
@@ -2661,7 +2684,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
     top: -2px;
     width: 20px;
     height: 20px;
-    border-radius: 3px;
+    -webkit-border-radius: 3px;
+            border-radius: 3px;
     font-family: "FontAwesome";
     border: 1px solid #cccccc;
     color: #fff;
@@ -2699,7 +2723,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
     top: -4px;
     width: 26px;
     height: 26px;
-    border-radius: 13px;
+    -webkit-border-radius: 13px;
+            border-radius: 13px;
     border: 1px solid #cccccc; }
   .radio-group [type="radio"]:checked + label:after {
     content: '';
@@ -2708,11 +2733,13 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
     top: 2px;
     width: 14px;
     height: 14px;
-    border-radius: 7px;
+    -webkit-border-radius: 7px;
+            border-radius: 7px;
     background: #ef3a60; }
 
 .button {
-  border-radius: 28px;
+  -webkit-border-radius: 28px;
+          border-radius: 28px;
   background: #ef3a60;
   padding: 16px 28px;
   height: 48px;
@@ -2727,6 +2754,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
   display: block;
   font-family: "Montserrat", Arial, sans-serif;
   -webkit-transition: background 0.3s;
+  -o-transition: background 0.3s;
   transition: background 0.3s; }
   .button.secondary {
     background: #3b4871; }
@@ -2753,6 +2781,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 *, *:before, *:after {
   -webkit-user-select: text;
   -webkit-tap-highlight-color: transparent;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 html, body {
@@ -2774,14 +2803,14 @@ body {
       overflow-y: scroll; }
 
 .container {
-  max-width: 68em;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px; }
   .container::after {
     clear: both;
     content: "";
-    display: table; }
+    display: block; }
 
 #wrapper {
   min-height: 100%;
@@ -2880,7 +2909,8 @@ header#header {
   overflow: hidden;
   font-family: "Montserrat", Arial, sans-serif;
   z-index: 1000;
-  border-radius: 4px; }
+  -webkit-border-radius: 4px;
+          border-radius: 4px; }
   #logo a {
     display: block;
     height: 80px;
@@ -2929,7 +2959,8 @@ section#about {
         margin: 0 auto;
         height: auto;
         max-height: 180px;
-        border-radius: 50%; }
+        -webkit-border-radius: 50%;
+                border-radius: 50%; }
     section#about .tutor .description {
       margin: 0 0 0 220px; }
       @media (max-width: min-width 521px 4) {
@@ -3037,15 +3068,18 @@ section#courses {
     margin-right: 3.16844%;
     width: 100%;
     margin-bottom: 30px;
-    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.01), 0px 2px 15px 0px rgba(0, 0, 0, 0.03); }
+    -webkit-box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.01), 0px 2px 15px 0px rgba(0, 0, 0, 0.03);
+            box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.01), 0px 2px 15px 0px rgba(0, 0, 0, 0.03); }
     section#courses .course:last-child {
       margin-right: 0; }
     section#courses .course .image {
       background: #f55f74;
-      border-radius: 4px 4px 0 0;
+      -webkit-border-radius: 4px 4px 0 0;
+              border-radius: 4px 4px 0 0;
       padding: 34px 24px;
       position: relative;
       -webkit-transition: background 0.3s;
+      -o-transition: background 0.3s;
       transition: background 0.3s; }
       section#courses .course .image .type {
         position: absolute;
@@ -3053,7 +3087,8 @@ section#courses {
         right: 14px;
         font-size: 12px;
         padding: 9px 14px;
-        border-radius: 16px;
+        -webkit-border-radius: 16px;
+                border-radius: 16px;
         line-height: 1.1;
         color: #fff;
         text-transform: uppercase;
@@ -3076,7 +3111,8 @@ section#courses {
     section#courses .course .content {
       background: #fff;
       padding: 26px 26px 32px 26px;
-      border-radius: 0 0 4px 4px;
+      -webkit-border-radius: 0 0 4px 4px;
+              border-radius: 0 0 4px 4px;
       height: 238px; }
       section#courses .course .content .details {
         text-align: center;
@@ -3137,7 +3173,8 @@ section#course-details {
     section#course-details .block-title .type {
       font-size: 12px;
       padding: 9px 14px;
-      border-radius: 16px;
+      -webkit-border-radius: 16px;
+              border-radius: 16px;
       line-height: 1.1;
       color: #fff;
       text-transform: uppercase;
@@ -3200,7 +3237,8 @@ section#course-details {
         top: -7px;
         margin-right: 8px;
         background-image: url("/img/devchampions.png");
-        background-size: 30px 30px; }
+        -webkit-background-size: 30px 30px;
+                background-size: 30px 30px; }
       section#course-details .button-group .button.informator:before {
         background-image: url("/img/informator.png"); }
     section#course-details .button-group span {
@@ -3229,7 +3267,8 @@ section#course-results, section#course-delivery, section#course-materials {
     background-color: #f55f74;
     padding: 5px;
     border: none;
-    border-radius: 28px; }
+    -webkit-border-radius: 28px;
+            border-radius: 28px; }
   section#course-results .block-title .tagline, section#course-delivery .block-title .tagline, section#course-materials .block-title .tagline {
     font-size: 12px;
     font-style: italic;
@@ -3270,7 +3309,8 @@ section#course-contents {
       font-weight: 700;
       padding: 5px 0;
       border: 3px solid #f3f3f3;
-      border-radius: 21px;
+      -webkit-border-radius: 21px;
+              border-radius: 21px;
       text-align: center;
       float: left; }
       section#course-contents .module .count:after {
@@ -3308,7 +3348,8 @@ section#course-contents {
     section#course-contents .module .count {
       width: 61px;
       height: 61px;
-      border-radius: 31px;
+      -webkit-border-radius: 31px;
+              border-radius: 31px;
       padding: 14px 0; }
       section#course-contents .module .count:after {
         top: 71px;
@@ -3336,8 +3377,10 @@ section#course-share {
       section#course-share .form .input-group input {
         background: #f3f3f3;
         -webkit-transition: background 0.3s;
+        -o-transition: background 0.3s;
         transition: background 0.3s;
-        border-radius: 24px;
+        -webkit-border-radius: 24px;
+                border-radius: 24px;
         height: 48px;
         width: 100%;
         padding: 10px 22px;
@@ -3376,10 +3419,12 @@ section#lightbox-cheatsheet {
         -ms-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
     -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
     transition: all 1s ease; }
     section#lightbox-cheatsheet .image img {
       max-width: 100%;
-      border-radius: 4px;
+      -webkit-border-radius: 4px;
+              border-radius: 4px;
       display: inline-block;
       width: auto;
       height: auto;
@@ -3400,7 +3445,9 @@ section#lightbox-cheatsheet {
     width: 100%;
     float: left;
     vertical-align: top;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white));
     background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 100%);
     background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%); }
     section#lightbox-cheatsheet .bottom .button {
       text-align: center; }
@@ -3441,7 +3488,8 @@ section#cheatsheets {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-    border-radius: 4px; }
+    -webkit-border-radius: 4px;
+            border-radius: 4px; }
     section#cheatsheets .item:last-child {
       margin-right: 0; }
     section#cheatsheets .item img {
@@ -3473,16 +3521,21 @@ section#cheatsheets {
       width: 100%;
       height: 100%;
       z-index: 5;
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.55)));
       background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.55) 100%);
+      background: -o-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.55) 100%);
       background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.55) 100%);
       -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
       transition: all 0.3s;
       opacity: 1;
       visability: visible; }
     section#cheatsheets .item .shade-hover {
       opacity: 0;
       visability: hidden;
+      background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(239, 58, 96, 0.75)));
       background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(239, 58, 96, 0.75) 100%);
+      background: -o-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(239, 58, 96, 0.75) 100%);
       background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(239, 58, 96, 0.75) 100%); }
     section#cheatsheets .item:hover .icon {
       display: block; }
@@ -3562,7 +3615,8 @@ section#calendar {
         height: 4px;
         background: #ef3a60;
         display: block;
-        border-radius: 2px;
+        -webkit-border-radius: 2px;
+                border-radius: 2px;
         float: left;
         margin: 9px 2px; }
         @media (max-width: min-width 521px 4) {
@@ -3585,12 +3639,14 @@ section#calendar {
         background: #ef3a60;
         display: block; }
       section#calendar .sidebar #openyear.active, section#calendar .sidebar #openmonth.active {
-        border-radius: 3px 3px 0px 0px; }
+        -webkit-border-radius: 3px 3px 0px 0px;
+                border-radius: 3px 3px 0px 0px; }
       @media (max-width: min-width 691px 8) {
         section#calendar .sidebar #openyear, section#calendar .sidebar #openmonth {
           width: 100%;
           height: 40px;
-          border-radius: 3px;
+          -webkit-border-radius: 3px;
+                  border-radius: 3px;
           background: #565656;
           display: block;
           margin: 0 0 20px 0; }
@@ -3602,7 +3658,8 @@ section#calendar {
             top: 40px;
             left: 0px;
             width: 100%;
-            border-radius: 0px 0px 3px 3px;
+            -webkit-border-radius: 0px 0px 3px 3px;
+                    border-radius: 0px 0px 3px 3px;
             z-index: 1000;
             display: none;
             padding: 0 0 10px 0;
@@ -3628,7 +3685,8 @@ section#calendar {
           section#calendar .sidebar #openfilter ul li a {
             color: rgba(255, 255, 255, 0.4);
             height: 40px;
-            border-radius: 3px;
+            -webkit-border-radius: 3px;
+                    border-radius: 3px;
             padding: 9px 14px;
             color: #fff;
             text-transform: lowercase;
@@ -3695,11 +3753,13 @@ section#calendar {
           height: 100%;
           width: 100%;
           border: 1px solid #dedede;
-          border-radius: 15px;
+          -webkit-border-radius: 15px;
+                  border-radius: 15px;
           cursor: default; }
           @media (max-width: min-width 521px 4) {
             section#calendar .main .week li .item {
-              border-radius: 20px;
+              -webkit-border-radius: 20px;
+                      border-radius: 20px;
               padding: 7px; } }
           section#calendar .main .week li .item.filled {
             background: #ef3a60;
@@ -3749,11 +3809,13 @@ section#calendar {
           bottom: 75px;
           opacity: 0;
           width: auto;
-          border-radius: 5px;
+          -webkit-border-radius: 5px;
+                  border-radius: 5px;
           text-align: center;
           white-space: nowrap;
           visibility: hidden;
           -webkit-transition: opacity 0.3s, bottom 0.3s;
+          -o-transition: opacity 0.3s, bottom 0.3s;
           transition: opacity 0.3s, bottom 0.3s; }
           section#calendar .main .week li .tooltip:after {
             content: " ";
@@ -3787,14 +3849,16 @@ section#lightbox-event .close {
   position: absolute; }
 
 section#lightbox-event .event {
-  border-radius: 5px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
   overflow: hidden; }
   section#lightbox-event .event .image {
     width: 100%;
     height: 220px;
     float: left;
     display: block;
-    background-size: cover;
+    -webkit-background-size: cover;
+            background-size: cover;
     background-position: center center; }
   section#lightbox-event .event h2 {
     text-align: center;
@@ -3816,7 +3880,8 @@ section#lightbox-event .event {
     margin-bottom: 24px;
     background: #f3f3f3;
     padding: 8px 16px;
-    border-radius: 5px; }
+    -webkit-border-radius: 5px;
+            border-radius: 5px; }
     section#lightbox-event .event .sessions .item {
       padding: 8px 0;
       overflow: hidden;
@@ -3834,7 +3899,8 @@ section#lightbox-event .event {
       height: 30px;
       padding: 0;
       margin-left: 6px;
-      border-radius: 15px;
+      -webkit-border-radius: 15px;
+              border-radius: 15px;
       font-size: 14px; }
     section#lightbox-event .event .sessions span {
       float: left; }
@@ -3860,7 +3926,8 @@ section#lightbox-event .event {
 section#invite {
   padding: 140px 0;
   background: url("/img/bg-invite.jpg") no-repeat;
-  background-size: cover;
+  -webkit-background-size: cover;
+          background-size: cover;
   background-position: center center;
   position: relative; }
   section#invite .container {
@@ -3902,7 +3969,8 @@ section#events-upcoming, section#events-past {
       font-weight: bold; }
     section#events-upcoming .pick ul, section#events-past .pick ul {
       padding: 4px 10px;
-      border-radius: 4px;
+      -webkit-border-radius: 4px;
+              border-radius: 4px;
       float: left;
       font-size: 18px;
       position: absolute;
@@ -3936,9 +4004,11 @@ section#events-upcoming, section#events-past {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-    border-radius: 4px;
+    -webkit-border-radius: 4px;
+            border-radius: 4px;
     padding: 20px;
     -webkit-transition: 0.3s border;
+    -o-transition: 0.3s border;
     transition: 0.3s border; }
     section#events-upcoming .item:last-child, section#events-past .item:last-child {
       margin-right: 0; }
@@ -3948,7 +4018,8 @@ section#events-upcoming, section#events-past {
       section#events-upcoming .item.past .title h3, section#events-past .item.past .title h3 {
         color: #434343; }
     section#events-upcoming .item.cover, section#events-past .item.cover {
-      background-size: cover;
+      -webkit-background-size: cover;
+              background-size: cover;
       background-position: center center;
       border: 0; }
       section#events-upcoming .item.cover .title h3, section#events-past .item.cover .title h3 {
@@ -3976,11 +4047,13 @@ section#events-upcoming, section#events-past {
       right: -2px;
       background: #eee;
       padding: 8px 14px;
-      border-radius: 0 0 0 4px;
+      -webkit-border-radius: 0 0 0 4px;
+              border-radius: 0 0 0 4px;
       color: #888;
       text-transform: uppercase;
       font-size: 12px;
       -webkit-transition: 0.3s all;
+      -o-transition: 0.3s all;
       transition: 0.3s all; }
     section#events-upcoming .item .date, section#events-past .item .date {
       font-weight: 700;
@@ -4063,7 +4136,8 @@ section#authors {
       position: relative;
       left: 50%;
       background: #f3f3f3;
-      border-radius: 80px;
+      -webkit-border-radius: 80px;
+              border-radius: 80px;
       padding: 12px;
       -webkit-transform: translate(-50%, 0);
           -ms-transform: translate(-50%, 0);
@@ -4078,12 +4152,14 @@ section#authors {
           width: 56px;
           height: 56px;
           float: left;
-          border-radius: 50%;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
           overflow: hidden; }
           section#authors .nav-author ul li a img {
             width: 100%;
             height: auto;
-            border-radius: 50%;
+            -webkit-border-radius: 50%;
+                    border-radius: 50%;
             overflow: hidden;
             opacity: 0.4; }
         section#authors .nav-author ul li.active a img {
@@ -4101,7 +4177,8 @@ section#authors {
       section#authors .author .image img {
         width: 100%;
         height: auto;
-        border-radius: 50%; }
+        -webkit-border-radius: 50%;
+                border-radius: 50%; }
     section#authors .author .wrap {
       overflow: hidden;
       width: auto;
@@ -4188,7 +4265,8 @@ section#blog {
       float: right;
       display: block;
       border: 1px solid #eee;
-      border-radius: 3px;
+      -webkit-border-radius: 3px;
+              border-radius: 3px;
       line-height: 1.2;
       padding: 12px 18px;
       font-size: 14px;
@@ -4203,6 +4281,7 @@ section#blog {
       clear: both;
       max-width: 100px;
       -webkit-transition: border-color 0.3s;
+      -o-transition: border-color 0.3s;
       transition: border-color 0.3s; }
     section#blog .pagination .prev {
       left: 0px;
@@ -4276,7 +4355,8 @@ section#post {
         section#post .footer .author .image img {
           width: 100%;
           height: auto;
-          border-radius: 50%; }
+          -webkit-border-radius: 50%;
+                  border-radius: 50%; }
       section#post .footer .author .description {
         overflow: hidden;
         width: auto;
@@ -4307,7 +4387,8 @@ section#post {
         height: 40px;
         width: 40px;
         line-height: 40px;
-        border-radius: 20px;
+        -webkit-border-radius: 20px;
+                border-radius: 20px;
         display: block;
         margin: 0 0 8px 0;
         font-size: 18px;
@@ -4335,7 +4416,8 @@ section#comments {
     width: 100%;
     padding: 30px;
     background: #f3f3f3;
-    border-radius: 4px; }
+    -webkit-border-radius: 4px;
+            border-radius: 4px; }
 
 section#lightbox-contact {
   background: rgba(7, 20, 49, 0.9); }
@@ -4355,7 +4437,8 @@ section#lightbox-contact {
     margin: 0 auto; }
   section#lightbox-contact .button {
     width: 100%;
-    border-radius: 2px;
+    -webkit-border-radius: 2px;
+            border-radius: 2px;
     padding: 22px 18px;
     font-size: 16px;
     height: auto; }
@@ -4373,7 +4456,8 @@ section#lightbox-contact {
     text-align: center;
     overflow: hidden;
     background: #fff;
-    border-radius: 30px; }
+    -webkit-border-radius: 30px;
+            border-radius: 30px; }
   @media screen and (min-width: 521px) {
     section#lightbox-contact .close-lightbox {
       right: 30px;

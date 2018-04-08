@@ -64,19 +64,19 @@
   </head>
   <body>
     <div id="wrapper">
-      <section id="lightbox-contact" class="lightbox">
-        <div class="container"><a href="#close-contact" class="close-lightbox">&times;</a>
+      <section class="lightbox" id="lightbox-contact">
+        <div class="container"><a class="close-lightbox" href="#close-contact">&times;</a>
           <div class="block-title">
             <h2>Contact</h2>
             <div class="tagline">Use this neat little form to contact me. Or write directly to &nbsp;<a href="mailto:info@extremeautomation.io">info@extremeautomation.io</a>.</div>
           </div>
           <ul class="social">
-            <li><a href="https://twitter.com/codingandrey" target="_blank" class="twitter"><i class="socicon socicon-twitter"></i></a></li>
-            <li><a href="http://lv.linkedin.com/in/andreyadamovich" target="_blank" class="linkedin"><i class="socicon socicon-linkedin"></i></a></li>
-            <li><a href="https://www.xing.com/profile/Andrey_Adamovich" target="_blank" class="slideshare"><i class="socicon socicon-xing"></i></a></li>
-            <li><a href="https://www.facebook.com/andrejs.adamovics" target="_blank" class="facebook"><i class="socicon socicon-facebook"></i></a></li>
+            <li><a class="twitter" href="https://twitter.com/codingandrey" target="_blank"><i class="socicon socicon-twitter"></i></a></li>
+            <li><a class="linkedin" href="http://lv.linkedin.com/in/andreyadamovich" target="_blank"><i class="socicon socicon-linkedin"></i></a></li>
+            <li><a class="slideshare" href="https://www.xing.com/profile/Andrey_Adamovich" target="_blank"><i class="socicon socicon-xing"></i></a></li>
+            <li><a class="facebook" href="https://www.facebook.com/andrejs.adamovics" target="_blank"><i class="socicon socicon-facebook"></i></a></li>
           </ul>
-          <form id="contact-form" action="https://formcarry.com/s/BkypGMmuf" method="POST" accept-charset="UTF-8" class="form">
+          <form class="form" id="contact-form" action="https://formcarry.com/s/BkypGMmuf" method="POST" accept-charset="UTF-8">
             <input type="hidden" name="_gotcha">
             <div class="input-group">
               <input name="name" placeholder="Name" id="contact-name">
@@ -105,12 +105,12 @@
           <nav id="main-nav">
             <div id="logo"><a href="/"><img src="/img/logo.png"></a></div>
             <ul class="nav-links">
-              <li><a href="/" class="active">Courses</a></li>
+              <li><a class="active" href="/">Courses</a></li>
               <li><a href="/speaking/">Speaking</a></li>
               <li><a href="/cheatsheets/" target="_self">Cheatsheets</a></li>
               <li><a href="/blog/">Blog</a></li>
               <li><a href="/about/">About</a></li>
-              <li><a href="#lightbox-contact" data-id="lightbox-contact" data-subject="Just to say hello" class="open-contacts open-lightbox">Contact</a></li>
+              <li><a class="open-contacts open-lightbox" href="#lightbox-contact" data-id="lightbox-contact" data-subject="Just to say hello">Contact</a></li>
             </ul>
           </nav>
         </div>
@@ -126,7 +126,7 @@
             <h2>Courses</h2>
             <div class="tagline">There is a lot to learn. Explore the catalogue and pick a course you like.</div>
           </div>
-          <div class="courses"><a href="/courses/devops-masterclass/" class="course">
+          <div class="courses"><a class="course" href="/courses/#{item.slug}/">
                         <div class="image">
                           <div class="type">workshop</div>
                           <div class="icon"><img src="/img/logos/ea.png"></div>
@@ -140,7 +140,7 @@
                           <div class="description">
                             <p>DevOps is a growing movement that encourages closer collaboration of developers and system operations to help business goals to be achieved efficiently and on time.</p>
                           </div>
-                        </div></a><a href="/courses/introduction-to-docker/" class="course">
+                        </div></a><a class="course" href="/courses/#{item.slug}/">
                         <div class="image">
                           <div class="type">workshop</div>
                           <div class="icon"><img src="/img/logos/docker.png"></div>
@@ -154,7 +154,7 @@
                           <div class="description">
                             <p>This is a 2-day practical workshop that covers Docker functionality, use cases and deployment scenarios.</p>
                           </div>
-                        </div></a><a href="/courses/ansible/" class="course">
+                        </div></a><a class="course" href="/courses/#{item.slug}/">
                         <div class="image">
                           <div class="type">workshop</div>
                           <div class="icon"><img src="/img/logos/ansible.png"></div>
@@ -168,7 +168,7 @@
                           <div class="description">
                             <p>This is a two-day deep-dive into infrastructure automation and management with the help of Ansible.</p>
                           </div>
-                        </div></a><a href="/courses/terraform/" class="course">
+                        </div></a><a class="course" href="/courses/#{item.slug}/">
                         <div class="image">
                           <div class="type">workshop</div>
                           <div class="icon"><img src="/img/logos/terraform.png"></div>
@@ -182,7 +182,7 @@
                           <div class="description">
                             <p>This workshop consists of 2 days spent on improving your skills of cloud infrastructure provisioning with the help of the mighty Terraform.</p>
                           </div>
-                        </div></a><a href="/courses/jenkins/" class="course">
+                        </div></a><a class="course" href="/courses/#{item.slug}/">
                         <div class="image">
                           <div class="type">workshop</div>
                           <div class="icon"><img src="/img/logos/jenkins.png"></div>
@@ -196,7 +196,7 @@
                           <div class="description">
                             <p>This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines.</p>
                           </div>
-                        </div></a><a href="/courses/git/" class="course">
+                        </div></a><a class="course" href="/courses/#{item.slug}/">
                         <div class="image">
                           <div class="type">workshop</div>
                           <div class="icon"><img src="/img/logos/git.png"></div>
@@ -217,16 +217,16 @@
       <footer id="footer">
         <div class="container">
           <div class="credit"><a id="go-up" href="#header">Beam me up, Scotty!</a>
-            <p>Friends with</p><a href="http://devchampions.com" class="devchampions"><img src="/img/logo-devchampions.png" alt="DevChampions"></a>
+            <p>Friends with</p><a class="devchampions" href="http://devchampions.com"><img src="/img/logo-devchampions.png" alt="DevChampions"></a>
           </div>
           <div class="copy">
             <p>Copyright &copy; 2012-2018 Aestas/IT.<br>All rights reserved.</p>
             <ul class="social">
-              <li><a href="https://twitter.com/codingandrey" target="_blank" class="twitter"><i class="socicon socicon-twitter"></i></a></li>
-              <li><a href="http://lv.linkedin.com/in/andreyadamovich" target="_blank" class="linkedin"><i class="socicon socicon-linkedin"></i></a></li>
-              <li><a href="https://github.com/aadamovich" target="_blank" class="fork"><i class="socicon socicon-github"></i></a></li>
-              <li><a href="http://slideshare.net/aestasit" target="_blank" class="slideshare"><i class="socicon socicon-slideshare"></i></a></li>
-              <li><a href="/blog/rss.xml" target="_blank" class="rss"><i class="socicon socicon-rss"></i></a></li>
+              <li><a class="twitter" href="https://twitter.com/codingandrey" target="_blank"><i class="socicon socicon-twitter"></i></a></li>
+              <li><a class="linkedin" href="http://lv.linkedin.com/in/andreyadamovich" target="_blank"><i class="socicon socicon-linkedin"></i></a></li>
+              <li><a class="fork" href="https://github.com/aadamovich" target="_blank"><i class="socicon socicon-github"></i></a></li>
+              <li><a class="slideshare" href="http://slideshare.net/aestasit" target="_blank"><i class="socicon socicon-slideshare"></i></a></li>
+              <li><a class="rss" href="/blog/rss.xml" target="_blank"><i class="socicon socicon-rss"></i></a></li>
             </ul>
           </div>
         </div>
