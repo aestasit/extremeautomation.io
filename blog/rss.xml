@@ -4,23 +4,17 @@
         <description><![CDATA[Extreme Automation]]></description>
         <link>http://extremeautomation.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 08 Apr 2018 17:55:06 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Apr 2018 19:58:41 GMT</lastBuildDate>
         <atom:link href="http://extremeautomation.io/rss.xml" rel="self" type="application/rss+xml"/>
         <item>
-            <title><![CDATA[DevOps academy experiences]]></title>
-            <description><![CDATA[The path of extreme automation.]]></description>
-            <guid isPermaLink="false">DevOps academy experiences</guid>
-            <pubDate>Tue, 10 Apr 2018 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Latvian Software Craftsmanship Community]]></title>
+            <title><![CDATA[Latvian software craftsmanship community]]></title>
             <description><![CDATA[LatCraft is the community of awesome Latvian software craftsmen and craftswomen. We host events, where we invite amazing speakers from across the world.]]></description>
-            <guid isPermaLink="false">Latvian Software Craftsmanship Community</guid>
+            <guid isPermaLink="false">Latvian software craftsmanship community</guid>
             <pubDate>Sat, 31 Mar 2018 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Bots at community service]]></title>
-            <description><![CDATA[Local software community/meetup management involves a lot of repetitive tasks: event publishing, notifications, statistical reports. Groovy, AWS Lambda, Terraform and Slack appeared to be a good combination to help creating valuable automation scripts and bots integrated into team's chat and ready to help.]]></description>
+            <description><![CDATA[Local software community/meet-up management involves a lot of repetitive tasks: event publishing, notifications, statistical reports. Groovy, AWS Lambda, Terraform and Slack appeared to be a good combination to help creating valuable automation scripts and bots integrated into team's chat and ready to help.]]></description>
             <guid isPermaLink="false">Bots at community service</guid>
             <pubDate>Wed, 25 Oct 2017 00:00:00 GMT</pubDate>
         </item>

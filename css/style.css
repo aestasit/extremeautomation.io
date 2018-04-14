@@ -519,19 +519,6 @@ html {
 
 /* grid settings */
 /* breakpoints */
-/*
-
-// ---------------------- phone meiaq
-@include media($phone) {
-}
-// ---------------------- tablet meiaq
-@include media($tablet) {
-}
-// ---------------------- desktop meiaq
-@include media($desktop) {
-}
-
-*/
 @font-face {
   font-family: "Prestashop";
   src: url("/fonts/prestashop-icon-font.eot");
@@ -2415,14 +2402,12 @@ html {
 
 .markdown h2 {
   font-size: 34px;
-  margin: 0;
   color: #3b4871;
   margin: 24px 0 8px; }
 
 .markdown h3 {
   font-size: 28px;
   font-weight: 700;
-  margin: 0;
   margin: 18px 0 8px 0; }
 
 .markdown h4 {
@@ -2444,7 +2429,7 @@ html {
   width: 100%;
   padding: 3px 4px;
   margin-top: -3px;
-  font-family: "Courier", "Droid Sans Mono";
+  font-family: "Courier", "Droid Sans Mono", monospace;
   background: #F0F0F0;
   color: #444;
   text-transform: none; }
@@ -2489,6 +2474,10 @@ html {
   font-style: italic;
   font-weight: 400;
   font-family: 'Droid Serif', serif; }
+
+@media screen and (min-width: 1120px) {
+  .markdown pre {
+    margin: 0 -40px 30px -40px; } }
 
 .block-title {
   text-align: center;
@@ -2559,7 +2548,6 @@ html {
     z-index: 10;
     display: block; }
   .lightbox .image {
-    width: auto;
     position: relative;
     float: left;
     left: 50%;
@@ -2822,7 +2810,7 @@ section, header, footer, article {
   clear: both; }
 
 header {
-  overflow: visable; }
+  overflow: visible; }
 
 strong {
   font-weight: 700; }
@@ -3068,8 +3056,8 @@ section#courses {
     margin-right: 3.16844%;
     width: 100%;
     margin-bottom: 30px;
-    -webkit-box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.01), 0px 2px 15px 0px rgba(0, 0, 0, 0.03);
-            box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.01), 0px 2px 15px 0px rgba(0, 0, 0, 0.03); }
+    -webkit-box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.01), 0 2px 15px 0 rgba(0, 0, 0, 0.03);
+            box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.01), 0 2px 15px 0 rgba(0, 0, 0, 0.03); }
     section#courses .course:last-child {
       margin-right: 0; }
     section#courses .course .image {
@@ -3138,7 +3126,7 @@ section#courses {
       section#courses .course:nth-child(2n) {
         margin-right: 0; }
       section#courses .course .image {
-        min-height: 248px; } }
+        min-height: 300px; } }
   @media screen and (min-width: 1120px) {
     section#courses .course {
       float: left;
@@ -3461,7 +3449,6 @@ section#lightbox-cheatsheet {
       float: none;
       margin: 0 0 0 30px;
       height: 48px;
-      display: inline-block;
       vertical-align: top; }
       section#lightbox-cheatsheet .bottom .share a {
         line-height: 48px;
@@ -3471,8 +3458,8 @@ section#lightbox-cheatsheet {
     section#lightbox-cheatsheet .bottom {
       position: fixed;
       z-index: 10;
-      bottom: 0px;
-      left: 0px;
+      bottom: 0;
+      left: 0;
       width: 100%;
       padding: 120px 0 0 0;
       min-height: 200px; } }
@@ -3516,8 +3503,8 @@ section#cheatsheets {
       display: none; }
     section#cheatsheets .item .shade, section#cheatsheets .item .shade-hover {
       position: absolute;
-      top: 0px;
-      left: 0px;
+      top: 0;
+      left: 0;
       width: 100%;
       height: 100%;
       z-index: 5;
@@ -3529,10 +3516,10 @@ section#cheatsheets {
       -o-transition: all 0.3s;
       transition: all 0.3s;
       opacity: 1;
-      visability: visible; }
+      visibility: visible; }
     section#cheatsheets .item .shade-hover {
       opacity: 0;
-      visability: hidden;
+      visibility: hidden;
       background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(239, 58, 96, 0.75)));
       background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(239, 58, 96, 0.75) 100%);
       background: -o-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, rgba(239, 58, 96, 0.75) 100%);
@@ -3541,10 +3528,10 @@ section#cheatsheets {
       display: block; }
     section#cheatsheets .item:hover .shade {
       opacity: 0;
-      visability: hidden; }
+      visibility: hidden; }
     section#cheatsheets .item:hover .shade-hover {
       opacity: 1;
-      visability: visible; }
+      visibility: visible; }
   @media screen and (min-width: 521px) {
     section#cheatsheets .item {
       float: left;
@@ -3577,10 +3564,10 @@ section#cheatsheets {
       display: block; }
     section#cheatsheets .item:hover .shade {
       opacity: 0;
-      visability: hidden; }
+      visibility: hidden; }
     section#cheatsheets .item:hover .shade-hover {
       opacity: 1;
-      visability: visible; } }
+      visibility: visible; } }
 
 section#calendar {
   padding: 80px 0; }
@@ -3656,10 +3643,10 @@ section#calendar {
             background: #565656;
             position: absolute;
             top: 40px;
-            left: 0px;
+            left: 0;
             width: 100%;
-            -webkit-border-radius: 0px 0px 3px 3px;
-                    border-radius: 0px 0px 3px 3px;
+            -webkit-border-radius: 0 0 3px 3px;
+                    border-radius: 0 0 3px 3px;
             z-index: 1000;
             display: none;
             padding: 0 0 10px 0;
@@ -4217,7 +4204,7 @@ section#authors {
 
 section#lightbox-blog .close-lightbox {
   top: -48px;
-  right: 0px;
+  right: 0;
   color: #fff; }
 
 section#blog {
@@ -4276,15 +4263,15 @@ section#blog {
   @media screen and (min-width: 521px) {
     section#blog .pagination .next, section#blog .pagination .prev {
       position: absolute;
-      right: 0px;
-      top: 0px;
+      right: 0;
+      top: 0;
       clear: both;
       max-width: 100px;
       -webkit-transition: border-color 0.3s;
       -o-transition: border-color 0.3s;
       transition: border-color 0.3s; }
     section#blog .pagination .prev {
-      left: 0px;
+      left: 0;
       right: auto; } }
   @media screen and (min-width: 1120px) {
     section#blog article h2:hover {
@@ -4366,7 +4353,7 @@ section#post {
 
 #share-scroll {
   position: absolute;
-  top: 0px;
+  top: 0;
   left: -80px; }
   #share-scroll.sticky {
     top: 80px;
@@ -4377,7 +4364,7 @@ section#post {
     position: fixed; }
   #share-scroll.bottom {
     top: auto;
-    bottom: 0px;
+    bottom: 0;
     position: absolute; }
   #share-scroll ul {
     width: 40px; }
