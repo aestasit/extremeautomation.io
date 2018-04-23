@@ -368,7 +368,7 @@
     "abstract": "This workshop consists of 2 days spent on improving your skills of cloud infrastructure provisioning with the help of mighty Terraform.",
     "description": [
       "This workshop consists of two days spent on improving your skills of cloud infrastructure provisioning with the help of mighty Terraform.",
-      "By using declarative language (HCL) to describe cloud resources, you will learn how to efficiently connect the dots of complex cloud configurations: servers, load balancers, keys, firewall rules, storage, base images, CDNs, lambda functions and many more",
+      "By using <strong>declarative language</strong> (HCL) to describe cloud resources, you will learn how to efficiently connect the dots of <string>complex cloud configurations</strong>: servers, load balancers, keys, firewall rules, storage, base images, CDNs, lambda functions and many more.",
       "State management and sharing with the help of workspaces and external storage engines will allow you to create identical environments from the same code base and ensure their consistency over time.",
       "Organizing code base, orchestrating cluster deployments, implementing reusable modules are only few topics that are going to be touched during this extremely pragmatic and practical workshop based on trainer's real-life experience managing complex cloud environments."
     ],
