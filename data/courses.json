@@ -433,18 +433,15 @@
     "icon": "/img/logos/jenkins.png",
     "abstract": "This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines.",
     "description": [
-      "Jenkins is a de-facto standard among CI/CD experts and has earned a reputation of being swiss army knife for all of your automation needs. With introduction of ... Jenkins 2 ",
+      "Jenkins is a de-facto standard among CI/CD experts and has earned a reputation of being Swiss army knife for all of your automation needs.",
       "This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines.",
-      "Effective software delivery, pie",
-      "Managing configuration, planning capacity, agent network, dynamic agents, Docker integration, "
+      "Managing configuration, planning capacity and agent network, dynamic agents, Docker integration, and many more "
     ],
     "results": [
-      "Create jobs and pipelines of different complexity...",
-      "Manage Jenkins installation by keeping sane...",
-      "Integrations with version control services, hooks, mail, issue tracking systems...",
-      "Notifications ...",
-      "Multi-branch pipelines, folders, views, ....",
-      "Security, integration with LDAP/AD, "
+      "Create jobs and pipelines of different complexity",
+      "Integrate with version control services, web hooks, mail servers, issue tracking systems",
+      "Organize tasks with multi-branch pipelines, folders, views, labels, agents",
+      "Manage Jenkins server setup and avoid configuration drift"
     ],
     "modules": [
       {
