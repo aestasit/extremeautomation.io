@@ -365,12 +365,12 @@
     "difficulty": "advanced",
     "duration": "2 days",
     "icon": "/img/logos/terraform.png",
-    "abstract": "This workshop consists of 2 days spent on improving your skills of cloud infrastructure provisioning with the help of the mighty Terraform.",
+    "abstract": "This workshop consists of 2 days spent on improving your skills of cloud infrastructure provisioning with the help of mighty Terraform.",
     "description": [
-      "This workshop consists of two days spent on improving your skills of cloud infrastructure provisioning with the help of the mighty Terraform.",
-      "By using declarative language (HCL) to describe cloud resources and ...",
-      "State management and sharing with the help of workspaces and external storage engines...",
-      "Organizing code base, orchestrating cluster deployments... implementing modules"
+      "This workshop consists of two days spent on improving your skills of cloud infrastructure provisioning with the help of mighty Terraform.",
+      "By using declarative language (HCL) to describe cloud resources, you will learn how to efficiently connect the dots of complex cloud configurations: servers, load balancers, keys, firewall rules, storage, base images, CDNs, lambda functions and many more",
+      "State management and sharing with the help of workspaces and external storage engines will allow you to create identical environments from the same code base and ensure their consistency over time.",
+      "Organizing code base, orchestrating cluster deployments, implementing reusable modules are only few topics that are going to be touched during this extremely pragmatic and practical workshop based on trainer's real-life experience managing complex cloud environments."
     ],
     "results": [
       "Define catalog of cloud resources",
@@ -433,7 +433,7 @@
     "icon": "/img/logos/jenkins.png",
     "abstract": "This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines.",
     "description": [
-      "Jenkins is de-facto standard ...",
+      "Jenkins is a de-facto standard among CI/CD experts. ",
       "This is a two-day practical workshop diving into various aspects of continuous integration/delivery and giving hands-on experience on implementing Jenkins 2 pipelines.",
       "Effective software delivery ....",
       "Planning capacity, agent network, dynamic agents, docker integration..."
