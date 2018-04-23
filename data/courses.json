@@ -259,18 +259,15 @@
     "abstract": "This is a two-day deep-dive into infrastructure automation and management with the help of Ansible.",
     "description": [
       "This is a two-day deep-dive into infrastructure automation and management with the help of Ansible.",
-      "The simplicity, elegance and power of Ansible playbooks and roles will give you a head-start with any automation tasks: provisioning, deployments, updates, rolling updates, audit.",
-      "Starting from simple installation and configuration management to complex orchestration, custom modules...",
-      ""
+      "The simplicity, elegance and power of Ansible playbooks and roles will give you a head-start with any automation tasks: server provisioning, automated deployments, rolling updates, server state audit.",
+      "Ansible can handle everything, starting from simple installation and configuration management to complex orchestrations of your server and network device mesh."
     ],
     "results": [
-      "Implement playbooks for in",
-      "Reusable Ansible roles",
-      "Managing static and dynamic inventory of servers and network devices",
-      "Complex logic, data structures and ",
-      "Organize code",
+      "Implement playbooks for installing and managing server software",
+      "Manage static and dynamic inventory of servers and network devices",
       "Implement rolling updates and zero down-time strategies",
-      "Writing custom Ansible modules"
+      "Implement reusable Ansible roles for common configurations",
+      "Write custom Ansible modules for custom integrations"
     ],
     "modules": [
       {
