@@ -374,11 +374,11 @@
     ],
     "results": [
       "Define catalog of cloud resources",
+      "Integrate with provisioning and configuration management tools",
       "Use Terraform workspaces for multiple environment built from the same template",
       "Create multi-provider configurations to unite heterogeneous infrastructure",
       "Create reusable Terraform modules",
-      "Write custom Terraform providers",
-      "Integrate with provisioning and configuration management tools"
+      "Write custom Terraform providers"
     ],
     "modules": [
       {
