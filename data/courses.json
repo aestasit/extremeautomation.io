@@ -453,7 +453,7 @@
           },
           {
             "type": "p",
-            "content": "Jenkins overview: jobs, projects, builds, queue, triggers"
+            "content": "Jenkins overview: jobs, pipelines, builds, queue, triggers, agents"
           }
         ]
       },
@@ -491,36 +491,19 @@
         "content": [
           {
             "type": "p",
-            "content": "Implementing multi-job pipelines"
+            "content": "Introduction to Groovy"
           },
           {
             "type": "p",
-            "content": "Handling multiple environments"
+            "content": "Pipeline anatomy: steps, stages, nodes, agents, libraries, triggers"
           },
           {
             "type": "p",
-            "content": "Pipeline as code"
+            "content": "Declarative vs scripted pipelines"
           },
           {
             "type": "p",
-            "content": "Integrations options"
-          }
-        ]
-      },
-      {
-        "name": "Operations",
-        "content": [
-          {
-            "type": "p",
-            "content": "Security configuration"
-          },
-          {
-            "type": "p",
-            "content": "API and scripting"
-          },
-          {
-            "type": "p",
-            "content": "Scaling Jenkins"
+            "content": "Pipeline elements: build wrappers, notifiers, testing tools, reports, artifact publishing"
           },
           {
             "type": "p",
@@ -528,7 +511,29 @@
           },
           {
             "type": "p",
-            "content": "Managing setup with provisioning tools"
+            "content": "Implementing complex pipelines and pipeline patterns"
+          }
+
+        ]
+      },
+      {
+        "name": "Operations",
+        "content": [
+          {
+            "type": "p",
+            "content": "Security configuration: users, groups, authorization matrix, LDAP integration, useful plugins"
+          },
+          {
+            "type": "p",
+            "content": "API and scripting: system scripts, resource management, tips and tricks"
+          },
+          {
+            "type": "p",
+            "content": "Scaling Jenkins: labels, agents, containers, cloud resources"
+          },
+          {
+            "type": "p",
+            "content": "Managing setup with provisioning tools: Ansible or Puppet"
           },
           {
             "type": "p",
