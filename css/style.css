@@ -3912,7 +3912,7 @@ section#lightbox-event .event {
 
 section#invite {
   padding: 140px 0;
-  background: url("/img/bg-invite.jpg") no-repeat;
+  background: url("/img/bg-adamovich.jpg") no-repeat;
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center center;
@@ -3946,35 +3946,6 @@ section#invite {
 
 section#events-upcoming, section#events-past {
   padding: 30px 0; }
-  section#events-upcoming .pick, section#events-past .pick {
-    position: relative; }
-    section#events-upcoming .pick .current, section#events-past .pick .current {
-      color: #ef3a60;
-      font-weight: bold; }
-    section#events-upcoming .pick ul, section#events-past .pick ul {
-      padding: 4px 10px;
-      -webkit-border-radius: 4px;
-              border-radius: 4px;
-      float: left;
-      font-size: 18px;
-      position: absolute;
-      left: 50%;
-      top: 100%;
-      -webkit-transform: translateX(-50%);
-          -ms-transform: translateX(-50%);
-              transform: translateX(-50%);
-      margin: 0 0 0 0;
-      z-index: 100; }
-      section#events-upcoming .pick ul li, section#events-past .pick ul li {
-        overflow: hidden;
-        float: left; }
-        section#events-upcoming .pick ul li a, section#events-past .pick ul li a {
-          padding: 4px 8px;
-          float: left;
-          width: 100%;
-          color: #ccc; }
-    section#events-upcoming .pick.active ul, section#events-past .pick.active ul {
-      display: block; }
   section#events-upcoming .year, section#events-past .year {
     display: block; }
   section#events-upcoming .item, section#events-past .item {
