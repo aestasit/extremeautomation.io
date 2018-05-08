@@ -11,8 +11,7 @@
     "abstract": "DevOps is a growing movement that encourages closer collaboration of developers and system operations to help business goals to be achieved efficiently and on time.",
     "description": [
       "DevOps is a growing movement that encourages closer collaboration of developers and system operations to help business goals to be achieved efficiently and on time. Software development and infrastructure scaling are very fast-paced nowadays. That brings a necessity of larger automation, measurement and information sharing for all involved processes.",
-      "This 3-day workshop focuses on solving challenges that organisations face when implementing DevOps initiatives. It introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like Vagrant, Docker, AWS, Kubernetes and others are given during this workshop.",
-      ""
+      "This 3-day workshop focuses on solving challenges that organisations face when implementing DevOps initiatives. It introduces principles of DevOps and tools that help reach full automation of infrastructure provisioning and software delivery. Theoretical background as well as practical hands-on examples of tools like Ansible, Docker, AWS, Terraform, Kubernetes, Serverless and many others are given during this workshop."
     ],
     "urls": [
       {
@@ -37,7 +36,16 @@
         "content": [
           {
             "type": "p",
-            "content": "The story, problems, main principles"
+            "content": "The story, Problems, Main principles"
+          }
+        ]
+      },
+      {
+        "name": "Team work",
+        "content": [
+          {
+            "type": "p",
+            "content": "DevOps team topologies, Unplanned work, Making work visible, KanBan for Ops, Site Reliability Engineers"
           }
         ]
       },
@@ -46,7 +54,7 @@
         "content": [
           {
             "type": "p",
-            "content": "Why to automate? What to automate? How to automate? When to not automate? Automation arguments, mathematical models, process automation"
+            "content": "Why to automate? What to automate? How to automate? When to not automate? Automation arguments, Mathematical models, Automation approaches"
           }
         ]
       },
@@ -55,7 +63,7 @@
         "content": [
           {
             "type": "p",
-            "content": "Continuous Integration, Continuous Deployment, Continuous Delivery"
+            "content": "Continuous Integration, Continuous Deployment, Continuous Delivery, Relation to DevOps, Lean, and Agile"
           }
         ]
       },
@@ -64,7 +72,7 @@
         "content": [
           {
             "type": "p",
-            "content": "Metadata management, maturity model"
+            "content": "Metadata management, Maturity model, Service Discovery, Configuration Servers, GitOps"
           }
         ]
       },
@@ -73,7 +81,7 @@
         "content": [
           {
             "type": "p",
-            "content": "Managing environments, developer’s machine, from development to production, infrastructure scaling"
+            "content": "Managing environments, Developer’s machine, From development to production, Infrastructure scaling, Mean time to recovery, Servers vs. Serverless, SDN (Software Defined Networks), SDx (Software Defined Everything)"
           }
         ]
       },
@@ -82,7 +90,7 @@
         "content": [
           {
             "type": "p",
-            "content": "Public clouds, private clouds, containerization"
+            "content": "Public clouds, Private clouds, Cloud Economics, Cloud Security, IaaS (infrastructure as a service), PaaS (platform as a service), CaaS (container as a service), FaaS (function as a service)"
           }
         ]
       },
@@ -91,7 +99,7 @@
         "content": [
           {
             "type": "p",
-            "content": "Local development, infrastructure connectivity, infrastructure provisioning, infrastructure testing, infrastructure monitoring"
+            "content": "Local development, Infrastructure connectivity, Infrastructure provisioning, Infrastructure testing, Infrastructure monitoring"
           }
         ]
       },
@@ -100,7 +108,7 @@
         "content": [
           {
             "type": "p",
-            "content": "Vagrant, Packer, Docker, AWS, Bash/Sshoogr/Fabric, Puppet/Chef/Ansible, Jenkins, ELK"
+            "content": "Git, Vagrant, Packer, Bash/Fabric, Puppet/Ansible, ServerSpec, Jenkins/GitLab-CI/Bamboo, Docker, Terraform, AWS, Kubernetes, Serverless, ELK"
           }
         ]
       }
