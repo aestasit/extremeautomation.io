@@ -27,7 +27,8 @@
     ],
     "results": [
       "Understand the principles of DevOps and Continuous Delivery",
-      "Know the automation tool set to choose from"
+      "Know the automation tool set to choose from",
+      "Automate infrastructure provisioning, scaling, testing and monitoring"
     ],
     "modules": [
       {
