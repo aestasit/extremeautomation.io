@@ -1,6 +1,6 @@
 [
   {
-    "name": "DevOps MasterClass / eXtreme Automation",
+    "name": "eXtreme Automation / DevOps MasterClass",
     "slug": "devops-masterclass",
     "type": "workshop",
     "public": true,
@@ -26,9 +26,8 @@
       }
     ],
     "results": [
-      "Understand the principles of DevOps",
-      "Have a tool set to choose from",
-      "Start automating "
+      "Understand the principles of DevOps and CD",
+      "Know the automation tool set to choose from"
     ],
     "modules": [
       {
