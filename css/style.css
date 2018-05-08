@@ -3944,11 +3944,8 @@ section#invite {
     z-index: 5;
     background: rgba(37, 28, 59, 0.6); }
 
-.events {
-  margin-top: 70px; }
-
 section#events-upcoming, section#events-past {
-  padding: 80px 0; }
+  padding: 30px 0; }
   section#events-upcoming .pick, section#events-past .pick {
     position: relative; }
     section#events-upcoming .pick .current, section#events-past .pick .current {
@@ -3979,9 +3976,7 @@ section#events-upcoming, section#events-past {
     section#events-upcoming .pick.active ul, section#events-past .pick.active ul {
       display: block; }
   section#events-upcoming .year, section#events-past .year {
-    display: none; }
-    section#events-upcoming .year.active, section#events-past .year.active {
-      display: block; }
+    display: block; }
   section#events-upcoming .item, section#events-past .item {
     float: left;
     display: block;
