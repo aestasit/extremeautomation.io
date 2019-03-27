@@ -3715,7 +3715,6 @@ section#calendar {
       margin: 0 0 10px 0;
       float: left; }
       section#calendar .main .week li {
-        width: -webkit-calc(14.285714% - 10px);
         width: calc(14.285714% - 10px);
         margin: 0 5px;
         height: 80px;
@@ -3727,7 +3726,6 @@ section#calendar {
             width: 34px;
             height: 34px;
             margin: 0;
-            margin-right: -webkit-calc(16.66666666666667% - 40px);
             margin-right: calc(16.66666666666667% - 40px);
             overflow: hidden; }
             section#calendar .main .week li:last-child {
