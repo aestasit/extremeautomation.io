@@ -4,8 +4,14 @@
         <description><![CDATA[Extreme Automation]]></description>
         <link>http://extremeautomation.io</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 27 Mar 2019 07:48:29 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 20 Oct 2019 10:27:08 GMT</lastBuildDate>
         <atom:link href="http://extremeautomation.io/rss.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Universe-as-code]]></title>
+            <description><![CDATA[What if universe was managed as code? Of course, there will be a tool that would describe the state of the objects with the help of declarative YAML code.]]></description>
+            <guid isPermaLink="false">Universe-as-code</guid>
+            <pubDate>Sun, 20 Oct 2019 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Latvian software craftsmanship community]]></title>
             <description><![CDATA[LatCraft is the community of awesome Latvian software craftsmen and craftswomen. We host events, where we invite amazing speakers from across the world.]]></description>
