@@ -549,6 +549,46 @@
     ]
   },
   {
+    "name": "Kubernetes FTW!",
+    "slug": "k8s",
+    "type": "workshop",
+    "public": true,
+    "materials": true,
+    "difficulty": "intermediate",
+    "duration": "2 days",
+    "icon": "/img/logos/k8s.png",
+    "abstract": "",
+    "description": [
+      "",
+      ""
+    ],
+    "results": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "modules": [
+      {
+        "name": "Introduction",
+        "content": [
+          {
+            "type": "p",
+            "content": "Git history"
+          },
+          {
+            "type": "p",
+            "content": "Git architecture and components"
+          },
+          {
+            "type": "p",
+            "content": "Installing Git and setting up environment"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Git Crash Course",
     "slug": "git",
     "type": "workshop",
